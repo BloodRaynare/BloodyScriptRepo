@@ -1,0 +1,1969 @@
+[AA]
+[Police]
+'10-70 in Doherty; don't worry'
+'10-37 in Verona Beach'
+'Series of 10-21s in Northern Red County'
+'10-57 in Ganton'
+'10-87 in Rockshore East'
+'Serious gang activity in Jefferson'
+'10-53 in Corona'
+'Problems in East Beach'
+'Incident in Blueberry involving a washing machine'
+'10-25 in Leafy Hollow'
+'Some kinda problem in Leafy Hollow; 10-75 in Ganton'
+'10-7 in Pershing Square; don't worry'
+'10-47 in Juniper Hill'
+'10-43 in Esplanade East'
+'10-15 in Bayside'
+'10-45 in downtown San Fierro'
+'Shut up with your moaning'
+'Hysterical old woman in Las Brujas'
+'Some kinda problem in Leafy Hollow'
+'Relax...people die every day'
+'10-75 somewhere near Easter Bay Airport'
+'10-37 in El Castillo Del Diablo'
+'10-53 in East Beach'
+'Reports of a 10-81'
+'Five cars to Market'
+'10-45 near the Bayside Tunnel'
+'10-21 near Fallen Tree'
+'Chinatown in San Fierro, you chump'
+'Domestic disputes in West King's'
+'People are having fun, stop it at once'
+'10-37 in Los Flores'
+'You sit behind a desk all day'
+'10-21 near Easter Bay Airport'
+'10-53 in Paradiso'
+'Not you, you're just outta rehab'
+'10-72 in Mulholland'
+'Problems in Easter Basin'
+'10-57 in Bone County'
+'10-71 in the Hunter Quarry area'
+(Riots) '10-45 in Missionary Hill'
+(Riots) 'Gimme a firetruck'
+(Riots) 'East Los Santos is in trouble'
+(Riots) 'It's f_ckin' insanity...get me an ambulance'
+(Riots) 'Dead body just found'
+(Riots) 'It's f_ckin' insanity...get me a firetruck'
+(Riots) 'Riot in progress' #1
+(Riots) 'Riot in progress' #2
+(Riots) 'Need an ambulance out here'
+(Riots) '10-57 in Ganton'
+(Riots) '10-82 all over San Fierro'
+(Riots) 'Riot in progress' #3
+(Riots) 'Serious problems in Santa Flora'
+(Riots) 'Serious problems in Angel Pine'
+(Riots) 'Get me a firetruck'
+(Riots) 'Serious sh_t going down in Blueberry'
+(Riots) 'Serious gang activity in Ganton'
+(Riots) 'Serious gang activity in Jefferson'
+(Riots) '10-73 in Prickle Pine'
+(Riots) 'Riot in progress' #4
+(Riots) 'Ganton is burning'
+(Silence for 9 seconds) #1
+(Silence for 9 seconds) #2
+(Silence for 9 seconds) #3
+(Silence for 19 seconds)
+(Silence for 9 seconds) #4
+(Silence for 9 seconds) #5
+
+[ADVERTS]
+[Adverts]
+Ammunation
+PSA (Cars for teenagers instead of bicycles)
+Blotto's #1 (Gold-plated Razorblades)
+Blotto's #2 (Silver Straw)
+Bouche Cologne
+Castradon ('Baldness is loneliness')
+Commando Pest Eradication
+Commemorative Miniatures
+The Crazy Cock Gentleman's Club
+Creative Plastic Surgery
+Eris Shoes
+Hampshire Nannies Ltd
+The Military
+Logger Beer
+Logger Light
+The Midlife Crisis Center
+'My Five Uncles' on LSBC
+Proposition 421 (Outlaw Smoking Everywhere)
+Proposition 832 (Ban Immigration Green Cards)
+Redwood Cigarettes
+Renegade Cologne
+Sooth Cough Medicine
+San Andreas Telephone #1 (Orphan)
+San Andreas Telephone #2 (Ex-husband)
+San Andreas Telephone #3 (New Father)
+San Andreas Telephone #4 (Son)
+Ultimate Disc in the Dark
+Fokari Film
+Dream Makers
+'Intergalactic Wrestling Championship' on Weazel
+Proposition 602 (No Mass Transit)
+Mike Andrews Live #1 ('U-S-A!')
+Abiggo Brokerage and Pawn
+Blotto's #3 (Tiny Spoon)
+Shine by Helmetshine
+de Koch Diamonds
+Janus ('Invent the new you')
+Rapidite, the Do-It-Yourself Sexual Realignment Kit
+Grin ('Keeps me at the Equator...')
+Mike Andrews Live #2 ('Enjoy it')
+Celebrate with Cake #1 (Wife)
+Celebrate with Cake #2 (Son)
+Sprunk
+Crimson Executive Spouse Indemnity Services
+Herr Gruber's Spa
+American Bank of Los Santos
+The Cavern of Sorrow Fantasy Game
+Cluckin' Bell #1 ('We're psychotic crazies')
+Cluckin' Bell #2 ('All you protestors can go to Hell')
+The Glory Hole Themepark #1 ('I know it's safe...')
+The Glory Hole Themepark #2 ('Something they'll never forget')
+Inversion Therapy
+Kilimanjaro Clothes #1 ('Women love big men')
+Kilimanjaro Clothes #2 ('You're as big as a mountain')
+Carcer City Vacations
+'Law' on Weazel #1 ('Gritty new show')
+'Law' on Weazel #2 ('Because paperwork is dramatic')
+'Law' on Weazel #3 ('The real life fictional drama')
+The Starfish Resort and Casino
+Tropicarcinoma
+Zebra Bar #1 ('What about nuts')
+Zebra Bar #2 ('Wow, it's enormous.')
+The Epsilon Program #1 ('Do you want answers')
+The Epsilon Program #2 ('Science is a lie')
+The Epsilon Program #3 ('Do you worry that nobody likes you')
+Executive Intruder Extermination Service
+Exsorbeo Handheld Gaming System
+Lustrious #1 ('There she was...')
+Lustrious #2 ('How you get your hair all greasy')
+
+[AMBIENCE]
+[Ambience]
+24-7 Store (Quiet Hum)
+Abattoir (Fan-like Clicking Noise)
+Ammunation Store PA System
+Area 69 Interior (Quiet Hum)
+Awards Ceremony (from Management Issues)
+Beach Party (Pretend We're Dead; from Life's a Beach)
+Arcade Game Music (from Let's Get Ready to Bumble)
+Bike and Boat School Level Results Music
+Saint Mark's Bistro (Violin Music)
+Unused Diner (Muzak and Chatter)
+UNKNOWN (similar to school level results)
+Casino Medley (Cross the Tracks; Hot Pants; Funky President)
+Dance Club Medley (Voodoo Ray; Your Love)
+Dam Machinery (Loud Hum)
+Driving School Level Results Music
+Arcade Game Music (from Duality)
+Unused (Quiet Hum)
+Fast Food Joint (Utensils and Quiet Chatter)
+Arcade Game Music (from Go Go Space Monkey)
+Safe House (Quiet Hum)
+Jet Interior (Loud Hum)
+Cargo Plane Interior (Very Loud Hum)
+Low-Rider Challenge (Road to the Riches)
+Planning Department (Quiet Hum)
+Inside Track Betting Lobby (Quiet Race Sounds)
+Inside Track Betting Machine (Horse Race)
+Flight School Level Results Music
+Pleasure Domes Medley (Hood Took Me Under; It was a Good Day)
+Police Station (Quiet Hum)
+Ship Bridge or Communications Room (Loud Static-like Sound)
+Unused (Very Loud Hum)
+Riots (Angry Mob)
+Wind Sounds
+Ship Interior (Loud Hum)
+Stadium Event Medley (Get Down to It; Cult of Personality)
+Strip Club Medley (My Lovin'; So You Like What You See; Between the Sheets)
+Unused Medley (Welcome to the Jungle; Strutter; Woman to Woman)
+Arcade Game Music (from They Come From Uranus; Quiet Hum)
+Warehouse (Mid-level Hum)
+Beach and Sea (Waves and Splashes)
+
+[BEATS]
+[Beats]
+Life's a Beach Dance Track (Hollywood Swingin')
+SA Theme Music (End Credits version)
+Club Dance Track #3 (Funky President)
+Club Dance Track #1 (Nuthin' But a 'G' Thang)
+Club Dance Track #2 (Hollywood Swingin')
+Low Rider Bounce Track #1 (Odyssey)
+Low Rider Bounce Track #2 (West Coast Poplock)
+Mission Complete #1
+Mission Complete #2
+Intro Movie #4 (Riding with C.R.A.S.H.)
+
+[CH]
+[Playback FM]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(Caller) 'Well, actually, it's CSR'
+(Caller) 'You're really annoying'
+(DJ) 'Be educated on the sounds that brung ya'
+(DJ) 'You don't last a minute'
+(DJ) 'There's a party over here'
+(DJ) 'West Coast radio suckers'
+(DJ) 'Ready for your training wheels'
+(DJ) 'I'll go speed of light on y'all'
+(DJ) 'This goes out to my man the Iceman'
+(DJ) 'Los Santos police'
+(DJ) 'Ugly like yo momma'
+(DJ) 'Small-minded robots'
+(DJ) 'Shoulda paid more attention in school'
+(DJ) 'Propaganda'
+(DJ) 'Cavern of Sorrow marathon'
+(DJ) 'Help ain't no charity'
+(DJ) 'Get back to the 'burbs you fools!'
+(DJ) 'I got seven digits as it is'
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Smog
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Rain #3
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'While you suckers were wearing diapers'
+(ID) 'Doper than anyone else'
+(ID) 'Drop out of that whack-ass school'
+(ID) 'Skills on the mic'
+(ID) 'Givin' it to ya' straight up, homeboy!'
+(ID) 'The home of classic hiphop'
+(ID) 'The man with an opinion on everything'
+(ID) 'Layin' it down old skool'
+(ID) 'Word up!'
+(ID) 'The reason you put that subwoofer in your car'
+(ID) 'Word to your mamma'
+Me & The Biz (Mid)
+Me & The Biz (Intro)
+Me & The Biz (Intro DJ #1)
+Me & The Biz (Intro DJ #2)
+Me & The Biz (Outro)
+Me & The Biz (Outro DJ #1)
+Me & The Biz (Outro DJ #2)
+Warm It Up Kane (Mid)
+Warm It Up Kane (Intro)
+Warm It Up Kane (Intro DJ #1)
+Warm It Up Kane (Intro DJ #2)
+Warm It Up Kane (Outro)
+Warm It Up Kane (Outro DJ #1)
+Warm It Up Kane (Outro DJ #2)
+Road to the Riches (Mid)
+Road to the Riches (Intro)
+Road to the Riches (Intro DJ #1)
+Road to the Riches (Intro DJ #2)
+Road to the Riches (Outro)
+Road to the Riches (Outro DJ #1)
+Road to the Riches (Outro DJ #2)
+Rebel Without a Pause (Mid)
+Rebel Without a Pause (Intro)
+Rebel Without a Pause (Intro DJ #1)
+Rebel Without a Pause (Intro DJ #2)
+Rebel Without a Pause (Outro)
+Rebel Without a Pause (Outro DJ #1)
+Rebel Without a Pause (Outro DJ #2)
+It Takes Two (Mid)
+It Takes Two (Intro)
+It Takes Two (Intro DJ #1)
+It Takes Two (Intro DJ #2)
+It Takes Two (Outro)
+It Takes Two (Outro DJ #1)
+It Takes Two (Outro DJ #2)
+I Know You Got Soul (Mid)
+I Know You Got Soul (Intro)
+I Know You Got Soul (Intro DJ #1)
+I Know You Got Soul (Intro DJ #2)
+I Know You Got Soul (Outro)
+I Know You Got Soul (Outro DJ #1)
+I Know You Got Soul (Outro DJ #2)
+Brand Nubian (Mid)
+Brand Nubian (Intro)
+Brand Nubian (Intro DJ #1)
+Brand Nubian (Intro DJ #2)
+Brand Nubian (Outro)
+Brand Nubian (Outro DJ #1)
+Brand Nubian (Outro DJ #2)
+Children's Story (Mid)
+Children's Story (Intro)
+Children's Story (Intro DJ #1)
+Children's Story (Intro DJ #2)
+Children's Story (Outro)
+Children's Story (Outro DJ #1)
+Children's Story (Outro DJ #2)
+B.Y.S. (Mid)
+B.Y.S. (Intro)
+B.Y.S. (Intro DJ #1)
+B.Y.S. (Intro DJ #2)
+B.Y.S. (Outro)
+B.Y.S. (Outro DJ #1)
+B.Y.S. (Outro DJ #2)
+Critical Beatdown (Mid)
+Critical Beatdown (Intro)
+Critical Beatdown (Intro DJ #1)
+Critical Beatdown (Intro DJ #2)
+Critical Beatdown (Outro)
+Critical Beatdown (Outro DJ #1)
+Critical Beatdown (Outro DJ #2)
+The Vapors (Mid)
+The Vapors (Intro)
+The Vapors (Intro DJ #1)
+The Vapors (Intro DJ #2)
+The Vapors (Outro)
+The Vapors (Outro DJ #1)
+The Vapors (Outro DJ #2)
+The Godfather (Mid)
+The Godfather (Intro)
+The Godfather (Intro DJ #1)
+The Godfather (Intro DJ #2)
+The Godfather (Outro)
+The Godfather (Outro DJ #1)
+The Godfather (Outro DJ #2)
+
+[CO]
+[KROSE]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Downstairs harmonica talents'
+(DJ) 'Euthanasia is a beautiful thing'
+(DJ) 'I might start to cry'
+(DJ) Darwinism
+(DJ) 'Harmonica down South again'
+(DJ) Latte
+(DJ) Belt buckles
+(DJ) 'Like the plug, but a musical version'
+(DJ) 'Harmonica in my pants'
+(DJ) 'You know what war I'm talking about'
+(DJ) 'Hurts a little when I try to put it in'
+(DJ) Legs akimbo
+(DJ) 'Love everyone like myself'
+(DJ) 'It ain't easy raising nine kids'
+(DJ) 'I am shit-faced'
+(DJ) 'On the prairie'
+(DJ) 'I keep moving on'
+(DJ) 'Make you want to square dance'
+(DJ) 'It's like Kant said'
+(DJ) 'Play a harmonica and sing at the same time'
+(Caller) 'Wicked, evil, wealthy woman'
+(Caller) 'Being faithful and cheating at the same time'
+(Story) Badlands Robberies
+(Story) Weed Farm Burned Down
+(Story) Lights in Desert
+(Story) Police Trial
+(Story) Gang Warfare
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain
+(Atmosphere) Storm #1
+(Atmosphere) Storm #2
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'Barefoot and pregnant again'
+(ID) 'All America loves a cowboy'
+(ID) 'From cow poking to cow-tipping'
+(ID) 'Invented the electric guitar'
+(ID) 'Farm Animals'
+(ID) 'When love shoots you in the back'
+(ID) 'Iron horse with a drinking problem'
+(ID) 'Whistle on a lonely night'
+(ID) 'It takes a cowboy to know when to shoot'
+Amos Moses (Mid)
+Amos Moses (Intro)
+Amos Moses (Intro DJ #1)
+Amos Moses (Intro DJ #2)
+Amos Moses (Outro)
+Amos Moses (Outro DJ #1)
+Amos Moses (Outro DJ #2)
+Louisiana woman, Mississippi man (Mid)
+Louisiana woman, Mississippi man (Intro)
+Louisiana woman, Mississippi man (Intro DJ #1)
+Louisiana woman, Mississippi man (Intro DJ #2)
+Louisiana woman, Mississippi man (Outro)
+Louisiana woman, Mississippi man (Outro DJ #1)
+Louisiana woman, Mississippi man (Outro DJ #2)
+One Step Forward (Mid)
+One Step Forward (Intro)
+One Step Forward (Intro DJ #1)
+One Step Forward (Intro DJ #2)
+One Step Forward (Outro)
+One Step Forward (Outro DJ #1)
+One Step Forward (Outro DJ #2)
+New York City (Mid)
+New York City (Intro)
+New York City (Intro DJ #1)
+New York City (Intro DJ #2)
+New York City (Outro)
+New York City (Outro DJ #1)
+New York City (Outro DJ #2)
+Bed of Roses (Mid)
+Bed of Roses (Intro)
+Bed of Roses (Intro DJ #1)
+Bed of Roses (Intro DJ #2)
+Bed of Roses (Outro)
+Bed of Roses (Outro DJ #1)
+Bed of Roses (Outro DJ #2)
+The Letter that Johnny Walker Read (Mid)
+The Letter that Johnny Walker Read (Intro)
+The Letter that Johnny Walker Read (Intro DJ #1)
+The Letter that Johnny Walker Read (Intro DJ #2)
+The Letter that Johnny Walker Read (Outro)
+The Letter that Johnny Walker Read (Outro DJ #1)
+The Letter that Johnny Walker Read (Outro DJ #2)
+Queen of Hearts (Mid)
+Queen of Hearts (Intro)
+Queen of Hearts (Intro DJ #1)
+Queen of Hearts (Intro DJ #2)
+Queen of Hearts (Outro)
+Queen of Hearts (Outro DJ #1)
+Queen of Hearts (Outro DJ #2)
+Hey Good Lookin' (Mid)
+Hey Good Lookin' (Intro)
+Hey Good Lookin' (Intro DJ #1)
+Hey Good Lookin' (Intro DJ #2)
+Hey Good Lookin' (Outro)
+Hey Good Lookin' (Outro DJ #1)
+Hey Good Lookin' (Outro DJ #2)
+Three Cigarettes in the Ashtray (Mid)
+Three Cigarettes in the Ashtray (Intro)
+Three Cigarettes in the Ashtray (Intro DJ #1)
+Three Cigarettes in the Ashtray (Intro DJ #2)
+Three Cigarettes in the Ashtray (Outro)
+Three Cigarettes in the Ashtray (Outro DJ #1)
+Three Cigarettes in the Ashtray (Outro DJ #2)
+I Love a Rainy Night (Mid)
+I Love a Rainy Night (Intro)
+I Love a Rainy Night (Intro DJ #1)
+I Love a Rainy Night (Intro DJ #2)
+I Love a Rainy Night (Outro)
+I Love a Rainy Night (Outro DJ #1)
+I Love a Rainy Night (Outro DJ #2)
+Crazy (Mid)
+Crazy (Intro)
+Crazy (Intro DJ #1)
+Crazy (Intro DJ #2)
+Crazy (Outro)
+Crazy (Outro DJ #1)
+Crazy (Outro DJ #2)
+Make the World Go Away (Mid)
+Make the World Go Away (Intro)
+Make the World Go Away (Intro DJ #1)
+Make the World Go Away (Intro DJ #2)
+Make the World Go Away (Outro)
+Make the World Go Away (Outro DJ #1)
+Make the World Go Away (Outro DJ #2)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Mid)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Intro)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Intro DJ #1)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Intro DJ #2)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Outro)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Outro DJ #1)
+Mammas Don't Let Your Babies Grow Up to be Cowboys (Outro DJ #2)
+Always Wanting You (Mid)
+Always Wanting You (Intro)
+Always Wanting You (Intro DJ #1)
+Always Wanting You (Intro DJ #2)
+Always Wanting You (Outro)
+Always Wanting You (Outro DJ #1)
+Always Wanting You (Outro DJ #2)
+All My Exes Live in Texas (Mid)
+All My Exes Live in Texas (Intro)
+All My Exes Live in Texas (Intro DJ #1)
+All My Exes Live in Texas (Intro DJ #2)
+All My Exes Live in Texas (Outro)
+All My Exes Live in Texas (Outro DJ #1)
+All My Exes Live in Texas (Outro DJ #2)
+
+[CR]
+[K-DST]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) Two kinds of people
+(DJ) 'Rock 'n' roll or classical'
+(DJ) 'Whatever happened to Love Fist'
+(DJ) 'Keeping the spirit of rock alive'
+(DJ) 'Get to the clinic'
+(DJ) 'Weren't the 70's great'
+(DJ) 'Music may not be the food of love'
+(DJ) '1977...What a year!'
+(Caller) 'I'm in hell, right'
+(Caller) 'That band you were in'
+(Caller) 'You're so lame'
+(DJ) I live the dream
+(Story) Prosecutor Busted for Weed
+(Story) Weed Farm Burned Down
+(Story) Lights in Desert
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Morning #3
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Night #3
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'Songs about abusing drugs and women'
+(ID) Tommy 'The Nightmare' Smith on the Dust
+(ID) 'The way it was meant to be enjoyed'
+(ID) 'Real rockers wear leather jackets'
+(ID) 'If the police can't stop you' #1
+(ID) 'If the police can't stop you' #2
+(ID) K-DST -- The Dust
+(ID) 'Gone to rehab'
+(ID) 'Ashes to ashes, Dust to Dust'
+(ID) 'I've got a 'word' for you, homey -- Dust'
+(ID) 'Music never gets old'
+Running Down a Dream (Mid)
+Running Down a Dream (Intro)
+Running Down a Dream (Intro DJ #1)
+Running Down a Dream (Intro DJ #2)
+Running Down a Dream (Outro)
+Running Down a Dream (Outro DJ #1)
+Running Down a Dream (Outro DJ #2)
+Barracuda (Mid)
+Barracuda (Intro)
+Barracuda (Intro DJ #1)
+Barracuda (Intro DJ #2)
+Barracuda (Outro)
+Barracuda (Outro DJ #1)
+Barracuda (Outro DJ #2)
+Woman to Woman (Mid)
+Woman to Woman (Intro)
+Woman to Woman (Intro DJ #1)
+Woman to Woman (Intro DJ #2)
+Woman to Woman (Outro)
+Woman to Woman (Outro DJ #1)
+Woman to Woman (Outro DJ #2)
+Young Turks (Mid)
+Young Turks (Intro)
+Young Turks (Intro DJ #1)
+Young Turks (Intro DJ #2)
+Young Turks (Outro)
+Young Turks (Outro DJ #1)
+Young Turks (Outro DJ #2)
+Somebody Up There Likes Me (Mid)
+Somebody Up There Likes Me (Intro)
+Somebody Up There Likes Me (Intro DJ #1)
+Somebody Up There Likes Me (Intro DJ #2)
+Somebody Up There Likes Me (Outro)
+Somebody Up There Likes Me (Outro DJ #1)
+Some Kind of Wonderful (Mid)
+Some Kind of Wonderful (Intro)
+Some Kind of Wonderful (Intro DJ #1)
+Some Kind of Wonderful (Intro DJ #2)
+Some Kind of Wonderful (Outro)
+Some Kind of Wonderful (Outro DJ #1)
+Some Kind of Wonderful (Outro DJ #2)
+Strutter (Mid)
+Strutter (Intro)
+Strutter (Intro DJ #1)
+Strutter (Intro DJ #2)
+Strutter (Outro)
+Strutter (Outro DJ #1)
+Strutter (Outro DJ #2)
+Hold the Line (Mid)
+Hold the Line (Intro)
+Hold the Line (Outro)
+Green River (Mid)
+Green River (Intro)
+Green River (Intro DJ #1)
+Green River (Intro DJ #2)
+Green River (Outro)
+Green River (Outro DJ #1)
+Eminence Front (Mid)
+Eminence Front (Intro)
+Eminence Front (Intro DJ #1)
+Eminence Front (Intro DJ #2)
+Eminence Front (Outro)
+Eminence Front (Outro DJ #1)
+Eminence Front (Outro DJ #2)
+A Horse with No Name (Mid)
+A Horse with No Name (Intro)
+A Horse with No Name (Intro DJ #1)
+A Horse with No Name (Intro DJ #2)
+A Horse with No Name (Outro)
+A Horse with No Name (Outro DJ #1)
+A Horse with No Name (Outro DJ #2)
+Slow Ride (Mid)
+Slow Ride (Intro)
+Slow Ride (Intro DJ #1)
+Slow Ride (Intro DJ #2)
+Slow Ride (Outro)
+Slow Ride (Outro DJ #1)
+Slow Ride (Outro DJ #2)
+White Wedding (Mid)
+White Wedding (Intro)
+White Wedding (Intro DJ #1)
+White Wedding (Intro DJ #2)
+White Wedding (Outro)
+White Wedding (Outro DJ #1)
+White Wedding (Outro DJ #2)
+Get Down to It (Mid)
+Get Down to It (Intro)
+Get Down to It (Intro DJ #1)
+Get Down to It (Intro DJ #2)
+Get Down to It (Outro)
+Get Down to It (Outro DJ #1)
+Get Down to It (Outro DJ #2)
+Two Tickets to Paradise (Mid)
+Two Tickets to Paradise (Intro)
+Two Tickets to Paradise (Intro DJ #1)
+Two Tickets to Paradise (Intro DJ #2)
+Two Tickets to Paradise (Outro)
+Two Tickets to Paradise (Outro DJ #1)
+Two Tickets to Paradise (Outro DJ #2)
+Smokin' (Mid)
+Smokin' (Intro)
+Smokin' (Intro DJ #1)
+Smokin' (Intro DJ #2)
+Smokin' (Outro)
+Smokin' (Outro DJ #1)
+Smokin' (Outro DJ #2)
+Free Bird (Mid)
+Free Bird (Intro)
+Free Bird (Intro DJ #1)
+Free Bird (Intro DJ #2)
+Free Bird (Outro)
+Free Bird (Outro DJ #1)
+Free Bird (Outro DJ #2)
+
+[CUTSCENE]
+[Cutscene]
+King in Exile
+Wu Zi Mu #1 (Intro)
+Wu Zi Mu #2 (Outro)
+Farewell, My Love #1 (Intro)
+Farewell, My Love #2 (Outro)
+Green Sabre #3 ('You got a bag over your head, boy')
+Green Sabre #4 ('Smoke does exactly what he's told')
+A Home in the Hills (Intro)
+Vertical Bird (Intro)
+Homecoming #1 (Intro)
+Homecoming #2 (Picking up Sweet)
+Homecoming #3 (Crackhead with Blender)
+Cut Throat Business #1 (Intro)
+Cut Throat Business #2 (Outro)
+Fender Ketchup #1 (Intro)
+Saint Mark's Bistro (Intro)
+Fender Ketchup #2 ('Hey, untie me')
+Explosive Situation (Intro)
+You've Had Your Chips (Intro)
+Don Peyote #1 (Intro)
+Don Peyote #2 (Picking up Kent and Maccer)
+Don Peyote #3 (Outro)
+Intensive Care (Intro)
+The Meat Business #1 (Intro)
+The Meat Business #2 (Entering Abattoir)
+The Meat Business #3 (Johnny's Heart Attack)
+Fish in a Barrel
+Freefall #1 (Intro, Salvatore meets Maria)
+Freefall #2 (Intro, Salvatore meets CJ)
+First Date
+First Base
+Gone Courting
+Made in Heaven
+High Stakes, Low Rider (Intro)
+Unused #1 (Impound Lot)
+Burning Desire (Intro)
+Unused #2 (Doberman; rant by Tenpenny)
+Gray Imports (Intro)
+Misappropriation (Intro)
+High Noon #1 (Intro)
+High Noon #2 (Just before Pulaski runs)
+Green Goo #1 (Alternate Intro, Too Fat)
+Black Project #1 (Alternate Intro, Too Fat)
+Dinner Date (Unsuccessful, Killing in the Name clip)
+Dinner Date (Successful)
+Monster (Intro)
+Highjack (Intro)
+Interdiction (Intro)
+Verdant Meadows
+N.O.E. (Intro)
+Black Project #2 (Intro)
+Stowaway (Intro)
+Green Goo #2 (Intro)
+Green Goo #3 (Outro)
+Madd Dogg (Intro)
+End of the Line #7 ('We gotta stay on top of our game')
+T-Bone Mendez (Intro)
+Mike Toreno #1 (Intro)
+Mike Toreno #2 (Toreno says to destroy the van)
+Ran Fa Li (Intro)
+Lure (Intro)
+Reuniting the Families (Intro)
+Green Sabre #1 (Intro)
+Green Sabre #2 (CJ meets with Cesar)
+Deconstruction (Intro)
+Wear Flowers in Your Hair #1 (Intro)
+Wear Flowers in Your Hair #2 (Outro)
+Beat Down on B-Dup #1 (Intro)
+Beat Down on B-Dup #2 (Dealer at B-Dup's Old Place)
+Beat Down on B-Dup #3 (Outro)
+Grove 4 Life (Intro)
+Architectural Espionage (Intro)
+Key to Her Heart (Intro)
+Dam and Blast (Intro)
+Cop Wheels (Intro)
+Up, Up, and Away (Intro)
+Breaking the Bank at Caligula's (Intro)
+Big Smoke #1 (Intro)
+Big Smoke #2 (Sweet and Kendl)
+Ryder (Intro)
+Intro Movie #1 ('After 5 years on the East Coast')
+Intro Movie #2 (CJ quietly gets into cab)
+Intro Movie #3 (Tenpenny pulls over CJ's cab)
+Riot #1 (Intro, Awaiting the verdict)
+Riot #2 (Intro, Tenpenny gets off)
+Los Desperados (Intro)
+End of the Line #1 (Intro)
+End of the Line #2 (In front of the crack palace)
+End of the Line #3 (Confrontation with Big Smoke)
+End of the Line #4 (Confrontation with Tenpenny)
+End of the Line #5 (Tenpenny's last words)
+End of the Line #6 ('See you around, officer')
+Home Invasion (Intro)
+Robbing Uncle Sam (Intro)
+Catalyst (Intro)
+555-We-Tip (Intro)
+Snail Trail (Intro)
+O.G. Loc #1 (Intro)
+O.G. Loc #2 (Outside the Police Station)
+Running Dog #1 (Intro)
+Running Dog #2 ('Coughio up el weedo')
+Wrong Side of the Tracks (Intro)
+Just Business (Intro)
+Zeroing In (Intro)
+Test Drive (Intro)
+Customs Fast Track (Intro)
+Puncture Wounds (Intro)
+Life's a Beach (Intro)
+Madd Dogg's Rhymes (Intro)
+Management Issues (Intro)
+House Party #1 (Intro, at Burger Shot)
+House Party #2 (Intro, OG Loc on stage)
+House Party #3 (Ballas on the way)
+Tagging Up Turf (Intro)
+Cleaning the Hood #1 (Intro)
+Cleaning the Hood #2 (B-Dup's Place)
+Drive Thru #1 (Intro)
+Drive Thru #2 (Ordering the food)
+Nines and AK's #1 (Intro)
+Nines and AK's #2 (Emmet's Place)
+Drive By (Intro)
+Sweet's Girl (Intro)
+Cesar Vialpando #1 (Intro)
+Cesar Vialpando #2 (Outro)
+Los Sepulcros (Intro)
+Jizzy #1 (Intro)
+Jizzy #2 (Pleasure Domes Club)
+Outrider (Gas Station)
+Ice Cold Killa #1 (Intro)
+Ice Cold Killa #2 (Pleasure Domes Club)
+Yay Ka-Boom-Boom (Intro)
+Body Harvest (Intro)
+Are You Going to San Fierro (Intro)
+Amphibious Assault #1 (Alternate Intro, Can't Swim)
+Mountain Cloud Boys #1 (Intro, Downstairs)
+Mountain Cloud Boys #2 (Intro, Woozie's Office)
+The Da Nang Thang (Intro)
+Amphibious Assault #2 (Intro)
+Air Raid (Intro)
+Supply Lines (Intro)
+New Model Army (Intro)
+
+[DS]
+[Bounce FM]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Shake your ass'
+(DJ) 'Primordial funk'
+(DJ) 'Smelling like the funk'
+(DJ) 'Stop funking around'
+(DJ) 'Back up into something wet'
+(DJ) 'Take it off baby'
+(DJ) Blunted
+(DJ) 'A B C D Me'
+(DJ) 'Party 'til you poop'
+(DJ) 'You lost the funk'
+(DJ) 'No mental hospital can hold me'
+(DJ) 'A shitty outlook on life'
+(DJ) 'What have you been smoking'
+(DJ) 'Proper preparation prevent piss poor performance'
+(DJ) 'Can you imagine me in handcuffs'
+(DJ) 'I can't believe my lyin' eyes'
+(DJ) 'I'm not saying please'
+(DJ) 'Doing it to you in your earhole'
+(DJ) 'You know you want it'
+(DJ) 'Stop towing the Funktipus mobile'
+(DJ) 'Would you believe they're paying me for this'
+(DJ) 'So you wanna be me'
+(DJ) 'Like a choo-choo'
+(DJ) 'If I look back I'll see me coming'
+(DJ) 'There's a lot of stress out there'
+(DJ) 'The Funktapus is like sushi'
+(DJ) 'Those casinos is getting crazy'
+(DJ) 'I know all about that prune'
+(DJ) 'Do fries go with that shake'
+(DJ) 'Funk is the DNA in rap'
+(Caller) 'Everyone here is so fake'
+(Caller) 'Sounds like you have a bipolar disorder'
+(Caller) 'How do I get on the party ship'
+(Story) Lights in Desert
+(Story) Lost Jumpjet
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Morning #3
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Smog
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'Party ship's crash landed'
+(ID) 'Until everyone's pregnant'
+(ID) 'The party never stops'
+(ID) 'Share your stash with everyone, baby'
+(ID) 'What did I do last night'
+(ID) 'Ready to fly into space'
+(ID) 'Who's next on my wife'
+(ID) 'Nobody's sober at the party'
+Love Rollercoaster (Mid)
+Love Rollercoaster (Intro)
+Love Rollercoaster (Intro DJ #1)
+Love Rollercoaster (Intro DJ #2)
+Love Rollercoaster (Outro)
+Love Rollercoaster (Outro DJ #1)
+Love Rollercoaster (Outro DJ #2)
+Loopzilla (Mid)
+Loopzilla (Intro)
+Loopzilla (Intro DJ #1)
+Loopzilla (Intro DJ #2)
+Loopzilla (Outro)
+Loopzilla (Outro DJ #1)
+Loopzilla (Outro DJ #2)
+Candy (Mid)
+Candy (Intro)
+Candy (Intro DJ #1)
+Candy (Intro DJ #2)
+Candy (Outro)
+Candy (Outro DJ #1)
+Candy (Outro DJ #2)
+You Dropped a Bomb on Me (Mid)
+You Dropped a Bomb on Me (Intro)
+You Dropped a Bomb on Me (Intro DJ #1)
+You Dropped a Bomb on Me (Intro DJ #2)
+You Dropped a Bomb on Me (Outro)
+You Dropped a Bomb on Me (Outro DJ #1)
+You Dropped a Bomb on Me (Outro DJ #2)
+Cold Blooded (Mid)
+Cold Blooded (Intro)
+Cold Blooded (Intro DJ #1)
+Cold Blooded (Intro DJ #2)
+Cold Blooded (Outro)
+Cold Blooded (Outro DJ #1)
+Cold Blooded (Outro DJ #2)
+I Can Make You Dance (Mid)
+I Can Make You Dance (Intro)
+I Can Make You Dance (Intro DJ #1)
+I Can Make You Dance (Intro DJ #2)
+I Can Make You Dance (Outro)
+I Can Make You Dance (Outro DJ #1)
+I Can Make You Dance (Outro DJ #2)
+Hollywood Swingin' (Mid)
+Hollywood Swingin' (Intro)
+Hollywood Swingin' (Intro DJ #1)
+Hollywood Swingin' (Intro DJ #2)
+Hollywood Swingin' (Outro)
+Hollywood Swingin' (Outro DJ #1)
+Hollywood Swingin' (Outro DJ #2)
+Twilight (Mid)
+Twilight (Intro)
+Twilight (Intro DJ #1)
+Twilight (Intro DJ #2)
+Twilight (Outro)
+Twilight (Outro DJ #1)
+Twilight (Outro DJ #2)
+Yum Yum (Mid)
+Yum Yum (Intro)
+Yum Yum (Intro DJ #1)
+Yum Yum (Intro DJ #2)
+Yum Yum (Outro)
+Yum Yum (Outro DJ #1)
+Yum Yum (Outro DJ #2)
+West Coast Poplock (Mid)
+West Coast Poplock (Intro)
+West Coast Poplock (Intro DJ #1)
+West Coast Poplock (Intro DJ #2)
+West Coast Poplock (Outro)
+West Coast Poplock (Outro DJ #1)
+West Coast Poplock (Outro DJ #2)
+Fantastic Voyage (Mid)
+Fantastic Voyage (Intro)
+Fantastic Voyage (Intro DJ #1)
+Fantastic Voyage (Intro DJ #2)
+Fantastic Voyage (Outro)
+Fantastic Voyage (Outro DJ #1)
+Fantastic Voyage (Outro DJ #2)
+Let it Whip (Mid)
+Let it Whip (Intro)
+Let it Whip (Intro DJ #1)
+Let it Whip (Intro DJ #2)
+Let it Whip (Outro)
+Let it Whip (Outro DJ #1)
+Let it Whip (Outro DJ #2)
+Between the Sheets (Mid)
+Between the Sheets (Intro)
+Between the Sheets (Intro DJ #1)
+Between the Sheets (Intro DJ #2)
+Between the Sheets (Outro)
+Between the Sheets (Outro DJ #1)
+Between the Sheets (Outro DJ #2)
+Love is the Message (Mid)
+Love is the Message (Intro)
+Love is the Message (Intro DJ #1)
+Love is the Message (Intro DJ #2)
+Love is the Message (Outro)
+Love is the Message (Outro DJ #1)
+Love is the Message (Outro DJ #2)
+Funky Worm (Mid)
+Funky Worm (Intro)
+Funky Worm (Intro DJ #1)
+Funky Worm (Intro DJ #2)
+Funky Worm (Outro)
+Funky Worm (Outro DJ #1)
+Funky Worm (Outro DJ #2)
+Running Away (Mid)
+Running Away (Intro)
+Running Away (Intro DJ #1)
+Running Away (Intro DJ #2)
+Running Away (Outro)
+Running Away (Outro DJ #1)
+Running Away (Outro DJ #2)
+Odyssey (Mid)
+Odyssey (Intro)
+Odyssey (Intro DJ #1)
+Odyssey (Intro DJ #2)
+Odyssey (Outro)
+Odyssey (Outro DJ #1)
+Odyssey (Outro DJ #2)
+
+[HC]
+[SFUR]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(Caller) 'I'd like to request a song'
+(Caller) 'Play some Wagner'
+(DJ) 'Shut up and dance, you fools!'
+(DJ) 'I am a rebel'
+(DJ) 'I come to America'
+(DJ) 'People cry when they see my record collection'
+(DJ) 'The computers have taken over'
+(DJ) 'European style... shaved'
+(DJ) 'Keeping it on a housey tip now'
+(DJ) 'Keep the party moving in here'
+(DJ) 'Has that dealer turned up yet'
+(DJ) 'Would you like a pillow'
+(DJ) 'Don't make me go to rehab'
+(DJ) 'I want to cry'
+(DJ) 'I am communing with you'
+(DJ) 'We are like dolphins clicking'
+(DJ) 'Harder, faster, deeper!'
+(DJ) 'Let's party'
+(DJ) 'Living in a digital future'
+(DJ) 'I love complete strangers'
+(DJ) 'I love you, San Fierro'
+(DJ) 'I went to Liberty City once'
+(DJ) 'Has anyone got any cigarette papers'
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Evening #3
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Morning #3
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Night #3
+Promised Land (Mid)
+Promised Land (Intro DJ #1)
+Promised Land (Intro DJ #2)
+Promised Land (Outro DJ #1)
+Promised Land (Outro DJ #2)
+Pacific (Mid)
+Pacific (Intro DJ #1)
+Pacific (Intro DJ #2)
+Pacific (Outro DJ #1)
+Pacific (Outro DJ #2)
+Voodoo Ray (Mid)
+Voodoo Ray (Intro DJ #1)
+Voodoo Ray (Intro DJ #2)
+Voodoo Ray (Outro DJ #1)
+Voodoo Ray (Outro DJ #2)
+Your Love (Mid)
+Your Love (Intro DJ #1)
+Your Love (Intro DJ #2)
+Your Love (Outro DJ #1)
+Your Love (Outro DJ #2)
+Break 4 Love (Mid)
+Break 4 Love (Intro DJ #1)
+Break 4 Love (Intro DJ #2)
+Break 4 Love (Outro DJ #1)
+Break 4 Love (Outro DJ #2)
+Ma Foom Bey (Mid)
+Ma Foom Bey (Intro DJ #1)
+Ma Foom Bey (Intro DJ #2)
+Ma Foom Bey (Outro DJ #1)
+Ma Foom Bey (Outro DJ #2)
+Make My Body Rock (Mid)
+Make My Body Rock (Intro DJ #1)
+Make My Body Rock (Intro DJ #2)
+Make My Body Rock (Outro DJ #1)
+Make My Body Rock (Outro DJ #2)
+Someday (Mid)
+Someday (Intro DJ #1)
+Someday (Intro DJ #2)
+Someday (Outro DJ #1)
+Someday (Outro DJ #2)
+Let the Music Use You (Mid)
+Let the Music Use You (Intro DJ #1)
+Let the Music Use You (Intro DJ #2)
+Let the Music Use You (Outro DJ #1)
+Let the Music Use You (Outro DJ #2)
+Can You Feel It (Mid)
+Can You Feel It (Intro DJ #1)
+Can You Feel It (Intro DJ #2)
+Can You Feel It (Outro DJ #1)
+Can You Feel It (Outro DJ #2)
+Move Your Body (Mid)
+Move Your Body (Intro DJ #1)
+Move Your Body (Intro DJ #2)
+Move Your Body (Outro DJ #1)
+Move Your Body (Outro DJ #2)
+This is Acid (Mid)
+This is Acid (Intro DJ #1)
+This is Acid (Intro DJ #2)
+This is Acid (Outro DJ #1)
+This is Acid (Outro DJ #2)
+Weekend (Mid)
+Weekend (Intro DJ #1)
+Weekend (Intro DJ #2)
+Weekend (Outro DJ #1)
+Weekend (Outro DJ #2)
+The Morning After (Mid)
+The Morning After (Intro DJ #1)
+The Morning After (Intro DJ #2)
+The Morning After (Outro DJ #1)
+The Morning After (Outro DJ #2)
+I'll be Your Friend (Mid)
+I'll be Your Friend (Intro DJ #1)
+I'll be Your Friend (Intro DJ #2)
+I'll be Your Friend (Outro DJ #1)
+I'll be Your Friend (Outro DJ #2)
+I Need a Rhythm (Mid)
+I Need a Rhythm (Intro DJ #1)
+I Need a Rhythm (Intro DJ #2)
+I Need a Rhythm (Outro DJ #1)
+I Need a Rhythm (Outro DJ #2)
+
+[MH]
+[Radio Los Santos]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Difference between a rapper and a gangster'
+(DJ) 'The home of gangsta rap'
+(DJ) 'Your man Julio G'
+(DJ) 'The hottest shit around'
+(DJ) 'Not the home of gangster fools'
+(DJ) 'Original home of the drive-by'
+(Atmosphere) Smog #1
+(DJ) 'Don't touch that dial'
+(Atmosphere) Smog #2
+(DJ) 'Burglary and carjacking is both up'
+(DJ) 'Self-styled Audio Boys'
+(DJ) 'My man Les in the north'
+(DJ) 'I get it first, the others get it last'
+(DJ) 'Sam and the boys from Liberty City'
+(DJ) 'We play the real shit'
+(DJ) 'The rest of the world can follow'
+(DJ) 'Ruling the airwaves'
+(DJ) 'Denise is desperate'
+(Story) Gang Warfare -- Ballas and Vagos taking over
+(Story) Gang Warfare -- Grove Street getting stronger
+(Story) Gang Warfare
+(Story) Riot
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Storm #1
+(Atmosphere) Storm #2
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) O.G. Loc
+(ID) Madd Dogg
+(ID) 'Doin' it evolution-style'
+(ID) 'Fool gave me the clap'
+(ID) 'Julio's the man'
+(ID) 'I sent you my demo nine times'
+(ID) 'Your voice is sooo sexy'
+(ID) 'Can I have a t-shirt'
+(ID) 'The home of gansta rap and gangsta bitches'
+(ID) B-Real of Cypress Hill
+(ID) Shout-outs
+Fuck wit Dre Day (Mid)
+Fuck wit Dre Day (Intro)
+Fuck wit Dre Day (Intro DJ #1)
+Fuck wit Dre Day (Intro DJ #2)
+Fuck wit Dre Day (Outro)
+Fuck wit Dre Day (Outro DJ #1)
+Fuck wit Dre Day (Outro DJ #2)
+I Don't Give a Fuck (Mid)
+I Don't Give a Fuck (Intro)
+I Don't Give a Fuck (Intro DJ #1)
+I Don't Give a Fuck (Intro DJ #2)
+I Don't Give a Fuck (Outro)
+I Don't Give a Fuck (Outro DJ #1)
+I Don't Give a Fuck (Outro DJ #2)
+Nuthin' but a 'G' Thang (Mid)
+Nuthin' but a 'G' Thang (Intro)
+Nuthin' but a 'G' Thang (Intro DJ #1)
+Nuthin' but a 'G' Thang (Intro DJ #2)
+Nuthin' but a 'G' Thang (Outro)
+Nuthin' but a 'G' Thang (Outro DJ #1)
+Nuthin' but a 'G' Thang (Outro DJ #2)
+Hood Took Me Under (Mid)
+Hood Took Me Under (Intro)
+Hood Took Me Under (Intro DJ #1)
+Hood Took Me Under (Intro DJ #2)
+Hood Took Me Under (Outro)
+Hood Took Me Under (Outro DJ #1)
+Hood Took Me Under (Outro DJ #2)
+It's Funky Enough (Mid)
+It's Funky Enough (Intro)
+It's Funky Enough (Intro DJ #1)
+It's Funky Enough (Intro DJ #2)
+It's Funky Enough (Outro)
+It's Funky Enough (Outro DJ #1)
+It's Funky Enough (Outro DJ #2)
+Alwayz Into Somethin' (Mid)
+Alwayz Into Somethin' (Intro)
+Alwayz Into Somethin' (Intro DJ #1)
+Alwayz Into Somethin' (Intro DJ #2)
+Alwayz Into Somethin' (Outro)
+Alwayz Into Somethin' (Outro DJ #1)
+Express Yourself (Mid)
+Express Yourself (Intro)
+Express Yourself (Intro DJ #1)
+Express Yourself (Intro DJ #2)
+Express Yourself (Outro)
+Express Yourself (Outro DJ #1)
+La Raza (Mid)
+La Raza (Intro)
+La Raza (Intro DJ #1)
+La Raza (Intro DJ #2)
+La Raza (Outro)
+La Raza (Outro DJ #1)
+How I Could Just Kill a Man (Mid)
+How I Could Just Kill a Man (Intro)
+How I Could Just Kill a Man (Intro DJ #1)
+How I Could Just Kill a Man (Outro)
+How I Could Just Kill a Man (Outro DJ #1)
+Murder Rap (Mid)
+Murder Rap (Intro)
+Murder Rap (Intro DJ #1)
+Murder Rap (Intro DJ #2)
+Murder Rap (Outro)
+Murder Rap (Outro DJ #1)
+Murder Rap (Outro DJ #2)
+Eazy-er Said than Dunn (Mid)
+Eazy-er Said than Dunn (Intro)
+Eazy-er Said than Dunn (Intro DJ #1)
+Eazy-er Said than Dunn (Intro DJ #2)
+Eazy-er Said than Dunn (Outro)
+Eazy-er Said than Dunn (Outro DJ #1)
+Eazy-er Said than Dunn (Outro DJ #2)
+Guerillas in tha Mist (Mid)
+Guerillas in tha Mist (Intro)
+Guerillas in tha Mist (Intro DJ #1)
+Guerillas in tha Mist (Intro DJ #2)
+Guerillas in tha Mist (Outro)
+Guerillas in tha Mist (Outro DJ #1)
+Guerillas in tha Mist (Outro DJ #2)
+It was a Good Day (Mid)
+It was a Good Day (Intro)
+It was a Good Day (Intro DJ #1)
+It was a Good Day (Outro)
+It was a Good Day (Outro DJ #1)
+Check Yo Self (The Message Remix) (Mid)
+Check Yo Self (The Message Remix) (Intro)
+Check Yo Self (The Message Remix) (Intro DJ #1)
+Check Yo Self (The Message Remix) (Intro DJ #2)
+Check Yo Self (The Message Remix) (Outro)
+Check Yo Self (The Message Remix) (Outro DJ #1)
+Check Yo Self (The Message Remix) (Outro DJ #2)
+Deep Cover (Mid)
+Deep Cover (Intro)
+Deep Cover (Intro DJ #1)
+Deep Cover (Outro)
+Deep Cover (Outro DJ #1)
+Deep Cover (Outro DJ #2)
+The Ghetto (Mid)
+The Ghetto (Intro)
+The Ghetto (Outro)
+The Ghetto (Outro DJ #1)
+The Ghetto (Outro DJ #2)
+
+[MR]
+[Radio X]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Bombarded with commercials'
+(DJ) 'Being a DJ is so hard'
+(DJ) 'I have to work so hard'
+(DJ) 'People over thirty'
+(DJ) 'Sage'
+(DJ) 'Guys in skirts'
+(DJ) 'No tracers yet'
+(DJ) 'That bitch at the record store'
+(DJ) 'One must always go forward'
+(DJ) 'Yes, that is my real name'
+(DJ) 'Like a big mix tape'
+(DJ) 'God I love crying'
+(DJ) 'I don't want a real job'
+(Caller) 'You really are full of yourself'
+(Caller) 'What a stupid name'
+(Story) 'Rap Crisis'
+(Story) Casino Opening
+(Story) Weed Farm Burned Down
+(Story) Riot
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Storm
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'We're the only identity you've got'
+(ID) 'This is our time'
+(ID) 'The id, the ego, ...'
+(ID) 'Self-important nihilists'
+(ID) 'At the end of the alphabet'
+(ID) 'They don't care about money'
+(ID) 'Trust fund babies'
+(ID) 'The birthplace of modern rock'
+(ID) 'Jump off a bridge and die'
+(ID) 'Much better than real friends'
+(ID) 'Who cares about hunger'
+Midlife Crisis (Mid)
+Midlife Crisis (Intro)
+Midlife Crisis (Intro DJ #1)
+Midlife Crisis (Intro DJ #2)
+Midlife Crisis (Outro)
+Midlife Crisis (Outro DJ #1)
+Midlife Crisis (Outro DJ #2)
+Movin' on Up (Mid)
+Movin' on Up (Intro)
+Movin' on Up (Intro DJ #1)
+Movin' on Up (Intro DJ #2)
+Movin' on Up (Outro)
+Movin' on Up (Outro DJ #1)
+Movin' on Up (Outro DJ #2)
+Personal Jesus (Mid)
+Personal Jesus (Intro)
+Personal Jesus (Intro DJ #1)
+Personal Jesus (Intro DJ #2)
+Personal Jesus (Outro)
+Personal Jesus (Outro DJ #1)
+Personal Jesus (Outro DJ #2)
+Mother (Mid)
+Mother (Intro)
+Mother (Intro DJ #1)
+Mother (Intro DJ #2)
+Mother (Outro)
+Mother (Outro DJ #1)
+Mother (Outro DJ #2)
+Unsung (Mid)
+Unsung (Intro)
+Unsung (Intro DJ #1)
+Unsung (Intro DJ #2)
+Unsung (Outro)
+Unsung (Outro DJ #1)
+Unsung (Outro DJ #2)
+Cult of Personality (Mid)
+Cult of Personality (Intro)
+Cult of Personality (Intro DJ #1)
+Cult of Personality (Intro DJ #2)
+Cult of Personality (Outro)
+Cult of Personality (Outro DJ #1)
+Cult of Personality (Outro DJ #2)
+Hellraiser (Mid)
+Hellraiser (Intro)
+Hellraiser (Intro DJ #1)
+Hellraiser (Intro DJ #2)
+Hellraiser (Outro)
+Hellraiser (Outro DJ #1)
+Hellraiser (Outro DJ #2)
+Killing in the Name (Mid)
+Killing in the Name (Intro)
+Killing in the Name (Intro DJ #1)
+Killing in the Name (Intro DJ #2)
+Killing in the Name (Outro)
+Killing in the Name (Outro DJ #1)
+Killing in the Name (Outro DJ #2)
+Welcome to the Jungle (Mid)
+Welcome to the Jungle (Intro)
+Welcome to the Jungle (Intro DJ #1)
+Welcome to the Jungle (Intro DJ #2)
+Welcome to the Jungle (Outro)
+Welcome to the Jungle (Outro DJ #1)
+Welcome to the Jungle (Outro DJ #2)
+Been Caught Stealing (Mid)
+Been Caught Stealing (Intro)
+Been Caught Stealing (Intro DJ #1)
+Been Caught Stealing (Intro DJ #2)
+Been Caught Stealing (Outro)
+Been Caught Stealing (Outro DJ #1)
+Been Caught Stealing (Outro DJ #2)
+Rusty Cage (Mid)
+Rusty Cage (Intro)
+Rusty Cage (Intro DJ #1)
+Rusty Cage (Intro DJ #2)
+Rusty Cage (Outro)
+Rusty Cage (Outro DJ #1)
+Rusty Cage (Outro DJ #2)
+Pretend We're Dead (Mid)
+Pretend We're Dead (Intro)
+Pretend We're Dead (Intro DJ #1)
+Pretend We're Dead (Intro DJ #2)
+Pretend We're Dead (Outro DJ #1)
+Pretend We're Dead (Outro)
+Pretend We're Dead (Outro DJ #2)
+Fools Gold (Mid)
+Fools Gold (Intro)
+Fools Gold (Intro DJ #1)
+Fools Gold (Intro DJ #2)
+Fools Gold (Outro)
+Fools Gold (Outro DJ #1)
+Fools Gold (Outro DJ #2)
+Them Bones (Mid)
+Them Bones (Intro)
+Them Bones (Intro DJ #1)
+Them Bones (Intro DJ #2)
+Them Bones (Outro)
+Them Bones (Outro DJ #1)
+Them Bones (Outro DJ #2)
+Plush (Mid)
+Plush (Intro)
+Plush (Outro)
+
+[NJ]
+[CSR]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Never trust a big butt and a smile'
+(DJ) Buying a cane
+(DJ) Momentum
+(DJ) 'With a good voice and some music...'
+(DJ) 'Swing with your wife'
+(DJ) 'People that can really sing'
+(DJ) 'One is music, the other belongs in therapy'
+(DJ) 'Sing my name'
+(DJ) 'Get ready to get down'
+(DJ) Contemporary Soul Radio
+(DJ) 'The home of modern soul'
+(DJ) 'Get off your fat ass and dance'
+(Caller) 'I'm in love with a girl'
+(Caller) 'Male chauvanist pigs'
+(Story) Casino Opening
+(Story) Weed Farm Burned Down
+(Story) Lights in Desert
+(Atmosphere) Evening
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'What do you call it...'
+(ID) 'What happens when you mix...'
+(ID) 'Old Jack We killed his old ass'
+(ID) 'Why are you dressed like a preppie'
+(ID) 'The home of New Jack Swing'
+(ID) 'Swing on this, baby'
+(ID) 'Sold my soul to the Devil'
+(ID) 'Soul has to have integrity'
+Keep on Movin' (Mid)
+Keep on Movin' (Intro)
+Keep on Movin' (Intro DJ #1)
+Keep on Movin' (Intro DJ #2)
+Keep on Movin' (Outro)
+Keep on Movin' (Outro DJ #1)
+Keep on Movin' (Outro DJ #2)
+So You Like What You See (Mid)
+So You Like What You See (Intro)
+So You Like What You See (Intro DJ #1)
+So You Like What You See (Intro DJ #2)
+So You Like What You See (Outro)
+So You Like What You See (Outro DJ #1)
+So You Like What You See (Outro DJ #2)
+Sensitivity (Mid)
+Sensitivity (Intro)
+Sensitivity (Intro DJ #1)
+Sensitivity (Intro DJ #2)
+Sensitivity (Outro)
+Sensitivity (Outro DJ #1)
+Sensitivity (Outro DJ #2)
+My Lovin' (Never Gonna Get It) (Mid)
+My Lovin' (Never Gonna Get It) (Intro)
+My Lovin' (Never Gonna Get It) (Intro DJ #1)
+My Lovin' (Never Gonna Get It) (Intro DJ #2)
+My Lovin' (Never Gonna Get It) (Outro)
+My Lovin' (Never Gonna Get It) (Outro DJ #1)
+My Lovin' (Never Gonna Get It) (Outro DJ #2)
+I'm So Into You (Mid)
+I'm So Into You (Intro)
+I'm So Into You (Intro DJ #1)
+I'm So Into You (Intro DJ #2)
+I'm So Into You (Outro)
+I'm So Into You (Outro DJ #1)
+I'm So Into You (Outro DJ #2)
+Groove Me (Mid)
+Groove Me (Intro)
+Groove Me (Intro DJ #1)
+Groove Me (Intro DJ #2)
+Groove Me (Outro)
+Groove Me (Outro DJ #1)
+Groove Me (Outro DJ #2)
+Rub You the Right Way (Mid)
+Rub You the Right Way (Intro)
+Rub You the Right Way (Intro DJ #1)
+Rub You the Right Way (Intro DJ #2)
+Rub You the Right Way (Outro)
+Rub You the Right Way (Outro DJ #1)
+Rub You the Right Way (Outro DJ #2)
+Motownphilly (Mid)
+Motownphilly (Intro)
+Motownphilly (Intro DJ #1)
+Motownphilly (Intro DJ #2)
+Motownphilly (Outro)
+Motownphilly (Outro DJ #1)
+Motownphilly (Outro DJ #2)
+Don't Be Cruel (Mid)
+Don't Be Cruel (Intro)
+Don't Be Cruel (Intro DJ #1)
+Don't Be Cruel (Intro DJ #2)
+Don't Be Cruel (Outro)
+Don't Be Cruel (Outro DJ #1)
+Don't Be Cruel (Outro DJ #2)
+Don't Be Afraid (Mid)
+Don't Be Afraid (Intro)
+Don't Be Afraid (Intro DJ #1)
+Don't Be Afraid (Intro DJ #2)
+Don't Be Afraid (Outro)
+Don't Be Afraid (Outro DJ #1)
+Don't Be Afraid (Outro DJ #2)
+Poison (Mid)
+Poison (Intro)
+Poison (Intro DJ #1)
+Poison (Intro DJ #2)
+Poison (Outro)
+Poison (Outro DJ #1)
+Poison (Outro DJ #2)
+New Jack Swing (Mid)
+New Jack Swing (Intro)
+New Jack Swing (Intro DJ #1)
+New Jack Swing (Intro DJ #2)
+New Jack Swing (Outro)
+New Jack Swing (Outro DJ #1)
+New Jack Swing (Outro DJ #2)
+I Got the Feeling (Mid)
+I Got the Feeling (Intro)
+I Got the Feeling (Intro DJ #1)
+I Got the Feeling (Intro DJ #2)
+I Got the Feeling (Outro)
+I Got the Feeling (Outro DJ #1)
+I Got the Feeling (Outro DJ #2)
+
+[RE]
+[K-JAH]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'Actor Johnny'
+(DJ) 'Beware of the parlour tricks'
+(DJ) 'Yeah, this is K-JAH West'
+(DJ) 'Where is the love gone'
+(DJ) 'My best friend got stolen away'
+(DJ) 'I'll get myself in line'
+(DJ) 'Caught the acting bug'
+(DJ) 'He's no rockstar'
+(DJ) 'That sound like a good idea'
+(DJ) 'They just lock you up'
+(DJ) 'Snow in Jamaica'
+(DJ) 'I love my music'
+(DJ) 'All they do is smoke'
+(DJ) 'A straight man'
+(DJ) The British
+(DJ) 'So you want to be a rude boy'
+(DJ) Smoking break
+(DJ) 'If you're working, quit'
+(DJ) 'More smokin' reggae'
+(DJ) 'Dreadlocks gonna save us all'
+(DJ) 'Mash it up'
+(DJ) 'To all you scientists'
+(Story) Gang Warfare
+(Story) Lights in Desert
+(Story) Riot
+(Story) 'Foolishness of Babylon'
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Storm
+(Atmosphere) Sunny #1
+(Atmosphere) Sunny #2
+(ID) 'That ain't bass'
+(ID) 'A breath of fresh air'
+(ID) 'Stop working'
+(ID) 'K-JAH West'
+(ID) 'Put your guns down'
+(ID) 'We are pilgrims'
+(ID) 'Winners don't use hard drugs'
+(ID) 'Cool out with K-JAH'
+(ID) 'No argument now'
+(ID) 'The best in reggae'
+King Tubby Meets the Rockers Uptown (Mid)
+King Tubby Meets the Rockers Uptown (Intro)
+King Tubby Meets the Rockers Uptown (Intro DJ #1)
+King Tubby Meets the Rockers Uptown (Intro DJ #2)
+King Tubby Meets the Rockers Uptown (Outro)
+King Tubby Meets the Rockers Uptown (Outro DJ #1)
+King Tubby Meets the Rockers Uptown (Outro DJ #2)
+Funky Kingston (Mid)
+Funky Kingston (Intro)
+Funky Kingston (Intro DJ #1)
+Funky Kingston (Intro DJ #2)
+Funky Kingston (Outro)
+Funky Kingston (Outro DJ #1)
+Funky Kingston (Outro DJ #2)
+Ring My Bell (Mid)
+Ring My Bell (Intro)
+Ring My Bell (Intro DJ #1)
+Ring My Bell (Intro DJ #2)
+Ring My Bell (Outro)
+Ring My Bell (Outro DJ #1)
+Ring My Bell (Outro DJ #2)
+Don't Let it Go to Your Head (Mid)
+Don't Let it Go to Your Head (Intro)
+Don't Let it Go to Your Head (Intro DJ #1)
+Don't Let it Go to Your Head (Intro DJ #2)
+Don't Let it Go to Your Head (Outro)
+Don't Let it Go to Your Head (Outro DJ #1)
+Don't Let it Go to Your Head (Outro DJ #2)
+Revolution (Mid)
+Revolution (Intro)
+Revolution (Intro DJ #1)
+Revolution (Intro DJ #2)
+Revolution (Outro)
+Revolution (Outro DJ #1)
+Revolution (Outro DJ #2)
+Sidewalk Killer (Mid)
+Sidewalk Killer (Intro)
+Sidewalk Killer (Intro DJ #1)
+Sidewalk Killer (Intro DJ #2)
+Sidewalk Killer (Outro)
+Sidewalk Killer (Outro DJ #1)
+Sidewalk Killer (Outro DJ #2)
+Wicked Inna Bed (Mid)
+Wicked Inna Bed (Intro)
+Wicked Inna Bed (Intro DJ #1)
+Wicked Inna Bed (Intro DJ #2)
+Wicked Inna Bed (Outro)
+Wicked Inna Bed (Outro DJ #1)
+Wicked Inna Bed (Outro DJ #2)
+Batty Rider (Mid)
+Batty Rider (Intro)
+Batty Rider (Intro DJ #1)
+Batty Rider (Intro DJ #2)
+Batty Rider (Outro)
+Batty Rider (Outro DJ #1)
+Batty Rider (Outro DJ #2)
+Cocaine in My Brain (Mid)
+Cocaine in My Brain (Intro)
+Cocaine in My Brain (Intro DJ #1)
+Cocaine in My Brain (Intro DJ #2)
+Cocaine in My Brain (Outro)
+Cocaine in My Brain (Outro DJ #1)
+Cocaine in My Brain (Outro DJ #2)
+Armagideon Time (Mid)
+Armagideon Time (Intro)
+Armagideon Time (Intro DJ #1)
+Armagideon Time (Intro DJ #2)
+Armagideon Time (Outro)
+Armagideon Time (Outro DJ #1)
+Armagideon Time (Outro DJ #2)
+Here I Come (Mid)
+Here I Come (Intro)
+Here I Come (Intro DJ #1)
+Here I Come (Intro DJ #2)
+Here I Come (Outro)
+Here I Come (Outro DJ #1)
+Here I Come (Outro DJ #2)
+Great Train Robbery (Mid)
+Great Train Robbery (Intro)
+Great Train Robbery (Intro DJ #1)
+Great Train Robbery (Outro)
+Great Train Robbery (Outro DJ #1)
+Great Train Robbery (Outro DJ #2)
+Drum Pan Sound (Mid)
+Drum Pan Sound (Intro)
+Drum Pan Sound (Intro DJ #1)
+Drum Pan Sound (Intro DJ #2)
+Drum Pan Sound (Outro)
+Drum Pan Sound (Outro DJ #1)
+Drum Pan Sound (Outro DJ #2)
+Pressure Drop (Mid)
+Pressure Drop (Intro)
+Pressure Drop (Intro DJ #1)
+Pressure Drop (Intro DJ #2)
+Pressure Drop (Outro)
+Pressure Drop (Outro DJ #1)
+Pressure Drop (Outro DJ #2)
+Chase the Devil (Mid)
+Chase the Devil (Intro)
+Chase the Devil (Intro DJ #1)
+Chase the Devil (Intro DJ #2)
+Chase the Devil (Outro)
+Chase the Devil (Outro DJ #1)
+Bam Bam (Mid)
+Bam Bam (Intro)
+Bam Bam (Intro DJ #1)
+Bam Bam (Intro DJ #2)
+Bam Bam (Outro)
+Bam Bam (Outro DJ #1)
+
+[RG]
+[Master Sounds]
+(Bridge Announce #1) Can access LS only
+(Bridge Announce #2) Can access LS and SF
+(Bridge Announce #3) Can access LS, SF, and LV
+(DJ) 'The art of love and...sensible advice'
+(DJ) 'Small packages'
+(DJ) 'To Heaven like nineteen times'
+(DJ) 'The love doctor'
+(DJ) 'The master of the rare groove'
+(Caller) 'We love you'
+(Caller) 'I get a great boner'
+(DJ) 'Eye-level with your kitty-cat'
+(DJ) 'Big Daddy'
+(DJ) 'Keep the groove groovin''
+(DJ) 'Lovin' you, coz you my bitch'
+(DJ) 'It's all pink on the inside'
+(DJ) 'You're tuned into who'
+(DJ) 'A little dude wit a attitude'
+(DJ) 'I'm about to suck you right on up'
+(DJ) 'Playing it for keeps'
+(DJ) 'Right in your earhole, 3D style'
+(DJ) 'Gonna end up in the hospital'
+(DJ) 'Too much soul'
+(DJ) 'Check out your headlights'
+(DJ) 'My book'
+(DJ) 'I am the Giant'
+(DJ) 'I know you thinkin' girl'
+(DJ) 'Don't be a fool and be defiant'
+(Caller) 'How tall are you'
+(Caller) 'Your attitude is disgusting'
+(Caller) 'What was that racket last night'
+(Story) Lights in Desert
+(Story) Burglaries
+(Story) Mafia Family Killed
+(Story) Police Trial
+(Story) Countryside Racing
+(Atmosphere) Evening #1
+(Atmosphere) Evening #2
+(Atmosphere) Morning #1
+(Atmosphere) Morning #2
+(Atmosphere) Night #1
+(Atmosphere) Night #2
+(Atmosphere) Fog #1
+(Atmosphere) Fog #2
+(Atmosphere) Fog #3
+(Atmosphere) Rain #1
+(Atmosphere) Rain #2
+(Atmosphere) Sunny
+(ID) 'The home of cool rare grooves'
+(ID) 'It's the Love Giant'
+(ID) 'Before it got sampled'
+(ID) 'We're bringing it back'
+(ID) 'When the rhythm method was king'
+(ID) 'Big Daddy's back in town'
+(ID) 'Find a beat to steer you'
+(ID) 'Stop, listen, and learn'
+Express Yourself (Mid)
+Express Yourself (Intro)
+Express Yourself (Intro DJ #1)
+Express Yourself (Intro DJ #2)
+Express Yourself (Outro)
+Express Yourself (Outro DJ #1)
+Express Yourself (Outro DJ #2)
+Green Onions (Mid)
+Green Onions (Intro)
+Green Onions (Intro DJ #1)
+Green Onions (Intro DJ #2)
+Green Onions (Outro)
+Green Onions (Outro DJ #1)
+Green Onions (Outro DJ #2)
+Cross the Tracks (We Better Go Back) (Mid)
+Cross the Tracks (We Better Go Back) (Intro)
+Cross the Tracks (We Better Go Back) (Intro DJ #1)
+Cross the Tracks (We Better Go Back) (Intro DJ #2)
+Cross the Tracks (We Better Go Back) (Outro)
+Cross the Tracks (We Better Go Back) (Outro DJ #1)
+Cross the Tracks (We Better Go Back) (Outro DJ #2)
+Hot Pants (Mid)
+Hot Pants (Intro)
+Hot Pants (Intro DJ #1)
+Hot Pants (Intro DJ #2)
+Hot Pants (Outro)
+Hot Pants (Outro DJ #1)
+Hot Pants (Outro DJ #2)
+Think About It (Mid)
+Think About It (Intro)
+Think About It (Intro DJ #1)
+Think About It (Intro DJ #2)
+Think About It (Outro)
+Think About It (Outro DJ #1)
+Think About It (Outro DJ #2)
+Rock Creek Park (Mid)
+Rock Creek Park (Intro)
+Rock Creek Park (Intro DJ #1)
+Rock Creek Park (Intro DJ #2)
+Rock Creek Park (Outro)
+Rock Creek Park (Outro DJ #1)
+Rock Creek Park (Outro DJ #2)
+Nautilus (Mid)
+Nautilus (Intro)
+Nautilus (Intro DJ #1)
+Nautilus (Intro DJ #2)
+Nautilus (Outro)
+Nautilus (Outro DJ #1)
+Funky President (Mid)
+Funky President (Intro)
+Funky President (Intro DJ #1)
+Funky President (Intro DJ #2)
+Funky President (Outro)
+Funky President (Outro DJ #1)
+Funky President (Outro DJ #2)
+Grunt (Mid)
+Grunt (Intro)
+Grunt (Intro DJ #1)
+Grunt (Intro DJ #2)
+Grunt (Outro)
+Grunt (Outro DJ #1)
+Grunt (Outro DJ #2)
+Jungle Fever (Mid)
+Jungle Fever (Intro)
+Jungle Fever (Intro DJ #1)
+Jungle Fever (Intro DJ #2)
+Jungle Fever (Outro)
+Jungle Fever (Outro DJ #1)
+Jungle Fever (Outro DJ #2)
+Low Rider (Mid)
+Low Rider (Intro)
+Low Rider (Intro DJ #1)
+Low Rider (Intro DJ #2)
+Low Rider (Outro)
+Low Rider (Outro DJ #1)
+Low Rider (Outro DJ #2)
+Soul Power '74 (Mid)
+Soul Power '74 (Intro)
+Soul Power '74 (Intro DJ #1)
+Soul Power '74 (Outro)
+Soul Power '74 (Outro DJ #1)
+Tainted Love (Mid)
+Tainted Love (Intro)
+Tainted Love (Outro)
+(I got) So Much Trouble in My Mind (Mid)
+(I got) So Much Trouble in My Mind (Intro)
+(I got) So Much Trouble in My Mind (Intro DJ #1)
+(I got) So Much Trouble in My Mind (Intro DJ #2)
+(I got) So Much Trouble in My Mind (Outro)
+(I got) So Much Trouble in My Mind (Outro DJ #1)
+Rock Me Again and Again (Mid)
+Rock Me Again and Again (Intro)
+Rock Me Again and Again (Intro DJ #1)
+Rock Me Again and Again (Intro DJ #2)
+Rock Me Again and Again (Outro)
+Rock Me Again and Again (Outro DJ #1)
+Rock Me Again and Again (Outro DJ #2)
+I Know You Got Soul (Mid)
+I Know You Got Soul (Intro)
+I Know You Got Soul (Intro DJ #1)
+I Know You Got Soul (Intro DJ #2)
+I Know You Got Soul (Outro)
+I Know You Got Soul (Outro DJ #1)
+The Payback (Mid)
+The Payback (Intro)
+The Payback (Intro DJ #1)
+The Payback (Intro DJ #2)
+The Payback (Outro)
+Smokin' Cheeba Cheeba (Mid)
+Smokin' Cheeba Cheeba (Intro)
+Smokin' Cheeba Cheeba (Intro DJ #1)
+Smokin' Cheeba Cheeba (Intro DJ #2)
+Smokin' Cheeba Cheeba (Outro)
+Smokin' Cheeba Cheeba (Outro DJ #1)
+Smokin' Cheeba Cheeba (Outro DJ #2)
+
+[TK]
+[WCTR]
+(ID) 'People dying... and explosions'
+(ID) 'Sensationalist bullshit'
+(ID) 'At home, at work, or in rehab'
+(ID) 'If you crave news'
+(ID) 'Opinions are free'
+(ID) 'Talk is cheap'
+(ID) 'Deal with your ignorance'
+(ID) 'All the news'
+Area 53 - Episode #1 (Mid)
+Area 53 - Episode #1 (Intro)
+Area 53 - Episode #1 (Outro)
+Area 53 - Episode #2 (Mid)
+Area 53 - Episode #2 (Intro)
+Area 53 - Episode #2 (Outro)
+Area 53 - Episode #3 (Mid)
+Area 53 - Episode #3 (Intro)
+Area 53 - Episode #3 (Outro)
+Entertaining America - Episode #1 (Mid)
+Entertaining America - Episode #1 (Intro)
+Entertaining America - Episode #1 (Outro)
+Entertaining America - Episode #2 (Mid)
+Entertaining America - Episode #2 (Intro)
+Entertaining America - Episode #2 (Outro)
+Entertaining America - Episode #3 (Mid)
+Entertaining America - Episode #3 (Intro)
+Entertaining America - Episode #3 (Outro)
+Entertaining America - Teaser (Mid)
+Entertaining America - Teaser (Intro)
+Entertaining America - Teaser (Outro)
+I Say, You Say - Episode #1 (Mid)
+I Say, You Say - Episode #1 (Intro)
+I Say, You Say - Episode #1 (Outro)
+I Say, You Say - Episode #2 (Mid)
+I Say, You Say - Episode #2 (Intro)
+I Say, You Say - Episode #2 (Outro)
+Lonely Hearts - Episode #1 (Mid)
+Lonely Hearts - Episode #1 (Intro)
+Lonely Hearts - Episode #1 (Outro)
+Lonely Hearts - Episode #2 (Mid)
+Lonely Hearts - Episode #2 (Intro)
+Lonely Hearts - Episode #2 (Outro)
+Lonely Hearts - Episode #3 (Mid)
+Lonely Hearts - Episode #3 (Intro)
+Lonely Hearts - Episode #3 (Outro)
+Gardening with Maurice - Teaser #1 (Mid)
+Gardening with Maurice - Teaser #1 (Intro)
+Gardening with Maurice - Teaser #1 (Outro)
+Gardening with Maurice - Teaser #2 (Mid)
+Gardening with Maurice - Teaser #2 (Intro)
+Gardening with Maurice - Teaser #2 (Outro)
+Gardening with Maurice - Episode #1 (Mid)
+Gardening with Maurice - Episode #1 (Intro)
+Gardening with Maurice - Episode #1 (Outro)
+Gardening with Maurice - Episode #2 (Mid)
+Gardening with Maurice - Episode #2 (Intro)
+Gardening with Maurice - Episode #2 (Outro)
+News - Episode #01 (Mid)
+News - Episode #01 (Intro)
+News - Episode #01 (Outro)
+News - Episode #02 (Mid)
+News - Episode #02 (Intro)
+News - Episode #02 (Outro)
+News - Episode #03 (Mid)
+News - Episode #03 (Intro)
+News - Episode #03 (Outro)
+News - Episode #04 (Mid)
+News - Episode #04 (Intro)
+News - Episode #04 (Outro)
+News - Episode #05 (Mid)
+News - Episode #05 (Intro)
+News - Episode #05 (Outro)
+News - Episode #06 (Mid)
+News - Episode #06 (Intro)
+News - Episode #06 (Outro)
+News - Episode #07 (Mid)
+News - Episode #07 (Intro)
+News - Episode #07 (Outro)
+News - Episode #08 (Mid)
+News - Episode #08 (Intro)
+News - Episode #08 (Outro)
+News - Episode #09 (Mid)
+News - Episode #09 (Intro)
+News - Episode #09 (Outro)
+News - Episode #10 (Mid)
+News - Episode #10 (Intro)
+News - Episode #10 (Outro)
+News - Episode #11 (Mid)
+News - Episode #11 (Intro)
+News - Episode #11 (Outro)
+The Tight End Zone - Episode #1 (Mid)
+The Tight End Zone - Episode #1 (Intro)
+The Tight End Zone - Episode #1 (Outro)
+The Tight End Zone - Episode #2 (Mid)
+The Tight End Zone - Episode #2 (Intro)
+The Tight End Zone - Episode #2 (Outro)
+The Wild Traveler - Episode #1 (Mid)
+The Wild Traveler - Episode #1 (Intro)
+The Wild Traveler - Episode #1 (Outro)
+The Wild Traveler - Episode #2 (Mid)
+The Wild Traveler - Episode #2 (Intro)
+The Wild Traveler - Episode #2 (Outro)
