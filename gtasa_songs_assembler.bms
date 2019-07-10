@@ -6,7 +6,7 @@
 ## Based on AlphaTwentyThree's deinterleave script
 
 ## TODO: 
-## Better filename handling
+## Still unfinished. I need a better filename handling
 
 get NAME basename
 get EXT extension
