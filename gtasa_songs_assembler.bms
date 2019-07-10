@@ -1,0 +1,295 @@
+## GTA San Andreas (PS2) - Radio song assembler by BloodRaynare
+## Assembles the piece of separate radio songs in SA into one audio stream
+## NOTE: Only works if you extracted the PAKs using my script previously (gtasa_streams_extract.bms) with REAL_SONGS_NAME 
+## values set to 1 and both of EXTRACT_AS_IS and EXTRACT_RAW set to 0!
+
+## Based on AlphaTwentyThree's deinterleave script
+
+## TODO: 
+## Better filename handling
+
+get NAME basename
+get EXT extension
+get DIR FILE_FOLDER
+string DIR <- 53
+if DIR == "SFUR"
+	string NAME -> 14
+	set NAME1 NAME
+	string NAME1 += " (Intro DJ #1)."
+	string NAME1 += EXT
+	set NAME2 NAME
+	string NAME2 += " (Mid)."
+	string NAME2 += EXT
+	set NAME3 NAME
+	string NAME3 += " (Outro DJ #1)."
+	string NAME3 += EXT
+else
+	string NAME -> 8
+	set NAME1 NAME
+	string NAME1 += " (Intro)."
+	string NAME1 += EXT
+	set NAME2 NAME
+	string NAME2 += " (Mid)."
+	string NAME2 += EXT
+	set NAME3 NAME
+	string NAME3 += " (Outro)."
+	string NAME3 += EXT
+endif
+open FDSE NAME1 0
+open FDSE NAME2 1
+open FDSE NAME3 2
+idstring "SShd"
+goto 0xc
+get FREQ long
+get CH long
+if CH == 1
+   cleanexit
+endif
+goto 0x14
+get INTERLEAVE long
+set OFFSET 0x28
+
+get STREAMSIZE1 asize
+math STREAMSIZE1 -= OFFSET
+set SBLOCK1 INTERLEAVE
+math SBLOCK1 *= 2 # stereo block
+set BLOCKS1 STREAMSIZE1
+math BLOCKS1 /= SBLOCK1
+
+get STREAMSIZE2 asize 1
+math STREAMSIZE2 -= OFFSET 1
+set SBLOCK2 INTERLEAVE
+math SBLOCK2 *= 2 1
+set BLOCKS2 STREAMSIZE2
+math BLOCKS2 /= SBLOCK2 1
+
+get STREAMSIZE3 asize 2
+math STREAMSIZE3 -= OFFSET 2
+set SBLOCK3 INTERLEAVE
+math SBLOCK3 *= 2 # 2
+set BLOCKS3 STREAMSIZE3
+math BLOCKS3 /= SBLOCK3 2
+
+callfunction split 1
+
+get SIZE1 asize MEMORY_FILE
+get SIZE2 asize MEMORY_FILE2
+get SIZE3 asize MEMORY_FILE3
+get SIZE4 asize MEMORY_FILE4
+get SIZE5 asize MEMORY_FILE5
+get SIZE6 asize MEMORY_FILE6
+
+callfunction merge 1
+
+get TOTALSIZE asize MEMORY_FILE7
+
+callfunction addSS2header 1
+
+get SIZE asize MEMORY_FILE8
+string NAME p= "Combined/%s.ads" NAME
+log NAME 0 SIZE MEMORY_FILE8
+
+
+startfunction split
+	log MEMORY_FILE 0 0
+	log MEMORY_FILE2 0 0
+	log MEMORY_FILE3 0 0
+	log MEMORY_FILE4 0 0
+	log MEMORY_FILE5 0 0
+	log MEMORY_FILE6 0 0
+	set DEOFF1 OFFSET
+	set DEOFF2 OFFSET
+	set DEOFF3 OFFSET
+	set TEST_OFF1 DEOFF1
+	set TEST_OFF2 DEOFF2
+	set TEST_OFF3 DEOFF3
+	get TEST1 asize
+	get TEST2 asize 1
+	get TEST3 asize 2
+	append
+	
+	for k = 1 <= BLOCKS1
+		math TEST_OFF1 + SBLOCK1
+		if TEST_OFF1 == TEST1
+			FindLoc PAD_START binary \x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0 0 ""
+			if PAD_START == ""
+				math PAD_START = STREAMSIZE1
+				math PAD_START + OFFSET
+			endif
+			SET TEST PAD_START
+			math TEST %= 2
+			if TEST == 1
+				math PAD_START + 1
+			endif
+			xmath REAL_END1 "PAD_START - DEOFF1"
+			if PAD_START >= STREAMSIZE1
+				math REAL_END1 -= INTERLEAVE
+			endif
+			log MEMORY_FILE DEOFF1 REAL_END1
+			math DEOFF1 += INTERLEAVE
+			log MEMORY_FILE2 DEOFF1 REAL_END1
+		else
+			log MEMORY_FILE DEOFF1 INTERLEAVE
+			math DEOFF1 += INTERLEAVE
+			log MEMORY_FILE2 DEOFF1 INTERLEAVE
+			math DEOFF1 += INTERLEAVE
+		endif
+	next k
+	
+	for k = 1 <= BLOCKS2
+		math TEST_OFF2 + SBLOCK2
+		if TEST_OFF2 == TEST2
+			FindLoc PAD_START binary \x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0 1 ""
+			if PAD_START == ""
+				math PAD_START = STREAMSIZE2
+				math PAD_START + OFFSET
+			endif
+			SET TEST PAD_START
+			math TEST %= 2
+			if TEST == 1
+				math PAD_START + 1
+			endif
+			xmath REAL_END2 "PAD_START - DEOFF2"
+			if PAD_START >= STREAMSIZE2
+				math REAL_END2 -= INTERLEAVE
+			endif
+			log MEMORY_FILE3 DEOFF2 REAL_END2 1
+			math DEOFF2 += INTERLEAVE
+			log MEMORY_FILE4 DEOFF2 REAL_END2 1
+		else
+			log MEMORY_FILE3 DEOFF2 INTERLEAVE 1
+			math DEOFF2 += INTERLEAVE
+			log MEMORY_FILE4 DEOFF2 INTERLEAVE 1
+			math DEOFF2 += INTERLEAVE
+		endif
+	next k
+	
+	for k = 1 <= BLOCKS3
+		math TEST_OFF3 + SBLOCK3
+		if TEST_OFF3 == TEST3
+			FindLoc PAD_START binary \x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0 2 ""
+			if PAD_START == ""
+				math PAD_START = STREAMSIZE3
+				math PAD_START + OFFSET
+			endif
+			SET TEST PAD_START
+			math TEST %= 2
+			if TEST == 1
+				math PAD_START + 1
+			endif
+			xmath REAL_END3 "PAD_START - DEOFF3"
+			if PAD_START >= STREAMSIZE3
+				math REAL_END3 -= INTERLEAVE
+			endif
+			log MEMORY_FILE5 DEOFF3 REAL_END3 2
+			math DEOFF3 += INTERLEAVE
+			log MEMORY_FILE6 DEOFF3 REAL_END3 2
+		else
+			log MEMORY_FILE5 DEOFF3 INTERLEAVE 2
+			math DEOFF3 += INTERLEAVE
+			log MEMORY_FILE6 DEOFF3 INTERLEAVE 2
+			math DEOFF3 += INTERLEAVE
+		endif
+	next k
+	
+	append
+endfunction
+
+startfunction merge
+	SET CURRPOS 0
+	log MEMORY_FILE7 0 0
+	
+	append
+	
+	for i = 0
+		SET TEST CURRPOS
+		SET ENDSIZE 0
+		math TEST += INTERLEAVE
+		if TEST >= SIZE1
+			math TEST -= INTERLEAVE
+			SET ENDFILE CURRPOS
+			math ENDSIZE += CURRPOS
+			xmath ENDSIZE "SIZE1 - CURRPOS"
+			SET PADDING CURRPOS
+			math PADDING + INTERLEAVE
+			math PADDING - SIZE1
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE
+			log MEMORY_FILE7 0 PADDING MEMORY_FILE3
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE2
+			log MEMORY_FILE7 0 PADDING MEMORY_FILE4
+			break
+		endif
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE2
+		math CURRPOS += INTERLEAVE
+	next i
+	
+	SET CURRPOS PADDING
+	
+	for i = 0
+		SET TEST CURRPOS
+		SET ENDSIZE 0
+		math TEST += INTERLEAVE
+		if TEST >= SIZE3
+			math TEST -= INTERLEAVE
+			SET ENDFILE CURRPOS
+			math ENDSIZE += CURRPOS
+			xmath ENDSIZE "SIZE3 - CURRPOS"
+			SET PADDING CURRPOS
+			math PADDING + INTERLEAVE
+			math PADDING - SIZE3
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE3
+			log MEMORY_FILE7 0 PADDING MEMORY_FILE5
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE4
+			log MEMORY_FILE7 0 PADDING MEMORY_FILE6
+			break
+		endif
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE3
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE4
+		math CURRPOS += INTERLEAVE
+	next i
+	
+	SET CURRPOS PADDING
+	
+	for i = 0
+		SET TEST CURRPOS
+		SET ENDSIZE 0
+		math TEST += INTERLEAVE
+		if TEST >= SIZE5
+			math TEST -= INTERLEAVE
+			SET ENDFILE CURRPOS
+			math ENDSIZE += CURRPOS
+			xmath ENDSIZE "SIZE5 - CURRPOS"
+			SET PADDING CURRPOS
+			math PADDING + INTERLEAVE
+			math PADDING - SIZE5
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE5
+			putDstring "" PADDING MEMORY_FILE7 0
+			log MEMORY_FILE7 ENDFILE ENDSIZE MEMORY_FILE6
+			putDstring "" PADDING MEMORY_FILE7 0
+			break
+		endif
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE5
+		log MEMORY_FILE7 CURRPOS INTERLEAVE MEMORY_FILE6
+		math CURRPOS += INTERLEAVE
+	next i
+	
+	append
+endfunction
+
+startfunction addSS2header
+	append
+	log MEMORY_FILE8 0 0
+	put 0x64685353 long MEMORY_FILE8
+	put 0x18 long MEMORY_FILE8
+	put 0x10 long MEMORY_FILE8
+	put FREQ long MEMORY_FILE8
+	put CH long MEMORY_FILE8
+	put INTERLEAVE long MEMORY_FILE8
+	put 0 long MEMORY_FILE8
+	put 0xffffffff long MEMORY_FILE8
+	put 0x64625353 long MEMORY_FILE8
+	put TOTALSIZE long MEMORY_FILE8
+	log MEMORY_FILE8 0 TOTALSIZE MEMORY_FILE7
+	append
+endfunction

@@ -1,0 +1,169 @@
+## GTA San Andreas (PS2) - SFX extractor by BloodRaynare
+## Extracts sfx audio banks from PAK archives, then extract the audio data from the banks, 
+## and export it as VAG (VAGp header info added so you can play it directly on vgmstream) or BIN (Raw PS2 ADPCM data) 
+## or extract the audio banks as-is
+
+## Based on pdescobar's SAAT (San Andreas Audio Toolkit) and AnonBaiter's gtasa_sfx.bms script
+
+## By default, extracts audio data to VAG
+## You can only pick one extraction modes!
+math EXTRACT_AS_IS = 0 		# If you want extract the data as-is, set to 1
+math EXTRACT_RAW = 0 		# If you want extract to PS2 raw ADPCM data, set to 1
+
+open FDSE BANKLKUP.DAT 1
+
+get LKUP_SIZE asize 1
+
+callfunction getpakoffset 1
+
+for i = 0
+	math BANKNUM = i
+	math BANKNUM + 1
+	callfunction getpakinfo 1
+	getarray DUMMY 0 j
+	getarray SIZE 1 j
+	math SIZE + 0x12c4
+	if EXTRACT_AS_IS == 1
+		string NAME p= "%s/Bank_%03i.bnk" PAK_REAL_NAME BANKNUM
+		log NAME OFFSET SIZE
+	elif EXTRACT_AS_IS == 0
+		log MEMORY_FILE OFFSET SIZE
+		goto OFFSET
+		get FILES short
+		get DUMMY short
+		for j = 0 < FILES
+			callfunction getbankinfo
+		next j
+		
+		for j = 0 < FILES
+			getarray SOUND_OFF 3 j
+			getarray FREQ	4 j
+			math j + 1
+			if j == FILES
+				get SIZE_TMP asize MEMORY_FILE
+				math SOUND_OFF + 0x12c4
+				math SIZE_TMP -= SOUND_OFF
+			else
+				getarray SOUND_OFF_NEXT 3 j
+				math SOUND_OFF_NEXT -= SOUND_OFF
+				SET SIZE_TMP SOUND_OFF_NEXT
+				math SOUND_OFF + 0x12c4
+			endif
+			math j - 1
+			math SOUNDNUM = j
+			math SOUNDNUM + 1
+			if EXTRACT_RAW == 1
+				string NAME p= "%s\Bank_%03i\sound_%03i.bin" PAK_REAL_NAME BANKNUM SOUNDNUM
+				log NAME SOUND_OFF SIZE_TMP MEMORY_FILE
+			elif EXTRACT_RAW == 0 && EXTRACT_AS_IS == 0
+				string VAGNAME p= "sound_%03i" SOUNDNUM
+				callfunction addVAGheader
+				get SIZE_TMP_2 asize MEMORY_FILE2
+				string NAME p= "%s\Bank_%03i\sound_%03i.vag" PAK_REAL_NAME BANKNUM SOUNDNUM
+				log NAME 0 SIZE_TMP_2 MEMORY_FILE2
+			elif EXTRACT_RAW == 1 && EXTRACT_AS_IS == 1
+				print "Currently you can only pick one extraction modes"
+				cleanexit
+			else
+				print "Please enter the values of 0 or 1!"
+				cleanexit
+			endif
+		next j
+	else
+		print "Please enter the values of 0 or 1!"
+		cleanexit
+	endif
+next i
+
+startfunction getpakinfo
+	savepos PAK_FDSE 1
+	if PAK_FDSE == LKUP_SIZE
+		break
+	endif
+	get PAK_FDSE byte 1
+	if PAK_FDSE != PAK_FDSE_TEST
+		break
+	endif
+	get DUMMY threebyte 1
+	get OFFSET long 1
+	get SIZE long 1
+	putarray 0 j DUMMY
+	putarray 1 j SIZE
+endfunction
+
+startfunction getbankinfo
+	get SOUND_OFF long
+	putarray 3 j SOUND_OFF
+	savepos SOUND_OFF
+	get DUMMY long
+	get FREQ short
+	putarray 4 j FREQ
+	savepos FREQ
+	get DUMMY2 short
+endfunction
+
+startfunction addVAGheader
+	log MEMORY_FILE2 0 0
+	putDstring "VAGp" 4 MEMORY_FILE2
+	endian big
+	put 0x20 long MEMORY_FILE2
+	put 0 long MEMORY_FILE2
+	put SIZE_TMP long MEMORY_FILE2
+	put FREQ long MEMORY_FILE2
+	putDstring "" 12 MEMORY_FILE2
+	putDstring VAGNAME 16 MEMORY_FILE2
+	endian little
+	append
+	log MEMORY_FILE2 SOUND_OFF SIZE_TMP MEMORY_FILE
+	append
+endfunction
+
+startfunction getpakoffset
+	get PAK_NAME FILENAME
+	if PAK_NAME == "FEET01.PAK"
+		string PAK_REAL_NAME p= "FEET"
+		FindLoc START_INFO_OFF binary \x0\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 0
+	elif PAK_NAME == "GENRL01.PAK"
+		string PAK_REAL_NAME p= "GENRL"
+		FindLoc START_INFO_OFF binary \x1\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 1
+	elif PAK_NAME == "PAIN_A01.PAK"
+		string PAK_REAL_NAME p= "PAIN_A"
+		FindLoc START_INFO_OFF binary \x2\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 2
+	elif PAK_NAME == "SCRIPT01.PAK"
+		string PAK_REAL_NAME p= "SCRIPT"
+		FindLoc START_INFO_OFF binary \x3\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 3
+	elif PAK_NAME == "SPC_EA01.PAK"
+		string PAK_REAL_NAME p= "SPC_EA"
+		FindLoc START_INFO_OFF binary \x4\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 4
+	elif PAK_NAME == "SPC_FA01.PAK"
+		string PAK_REAL_NAME p= "SPC_FA"
+		FindLoc START_INFO_OFF binary \x5\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 5
+	elif PAK_NAME == "SPC_GA01.PAK"
+		string PAK_REAL_NAME p= "SPC_GA"
+		FindLoc START_INFO_OFF binary \x6\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 6
+	elif PAK_NAME == "SPC_NA01.PAK"
+		string PAK_REAL_NAME p= "SPC_NA"
+		FindLoc START_INFO_OFF binary \x7\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 7
+	elif PAK_NAME == "SPC_PA01.PAK"
+		string PAK_REAL_NAME p= "SPC_PA"
+		FindLoc START_INFO_OFF binary \x8\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 8
+	endif
+endfunction

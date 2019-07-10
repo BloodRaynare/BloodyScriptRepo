@@ -1,0 +1,258 @@
+## GTA San Andreas (PS2) - Streams extractor by BloodRaynare
+## Extracts audio tracks from PAK archives and then export it as ADS format
+## (SShd and SSbd header info added so you can play it directly on vgmstream) or BIN format (Raw PS2 ADPCM data) 
+## or extract the audio streams as-is (with custom headers and padding intact)
+
+## Based on pdescobar's SAAT (San Andreas Audio Toolkit) and AnonBaiter's gtasa_streams.bms script
+## Descriptive names of the audio tracks (NAMES.TXT) were directly taken from SAAT's metadata-full.ini with some modifications
+
+## By default, if both of these EXTRACT_ prefix values below is 0, it will automatically extract to ADS format
+## You can only pick one extraction modes!
+math EXTRACT_AS_IS = 0 		# If you want extract the data as-is, set to 1
+math EXTRACT_RAW = 0 		# If you want extract to PS2 raw ADPCM data, set to 1
+math DESCRIPTIVE_NAME = 1 	# Assign the filenames to the one provided by REALNAMES.TXT instead of Track_???, set 0 to disable
+
+open FDSE TRAKLKUP.DAT 1
+get LKUP_SIZE asize 1
+callfunction getpakoffset 1
+
+if DESCRIPTIVE_NAME == 1
+	open FDSE "NAMES.TXT" 2
+	set SECTION_NAMES ""
+	string SECTION_NAMES += "["
+	string SECTION_NAMES += PAK_REAL_NAME
+	string SECTION_NAMES  += "]"
+	FindLoc PAK_NAME_TXT string SECTION_NAMES 2
+	goto PAK_NAME_TXT 2
+	get PAK line 2
+	get STATION_NAME line 2
+	string STATION_NAME -> 1
+	string STATION_NAME <- 1
+endif
+
+for j = 0
+	callfunction getpakinfo 1
+	getarray DUMMY 0 i
+	getarray OFFSET 1 i
+	getarray SIZE 2 i
+	math SIZE + 0x1f84
+	if EXTRACT_AS_IS == 1
+		if DESCRIPTIVE_NAME == 1
+			get REALNAMES line 2
+			string NAME p= "%s\%s.vag" STATION_NAME REALNAMES
+		elif DESCRIPTIVE_NAME == 0
+			math SOUNDNUM = j
+			math SOUNDNUM + 1
+			string NAME p= "%s/Track_%03i.vag" PAK_REAL_NAME SOUNDNUM
+		else
+			print "Please enter the values of 0 or 1!"
+			cleanexit
+		endif
+		log NAME OFFSET SIZE
+	elif EXTRACT_RAW == 1
+		log MEMORY_FILE OFFSET SIZE
+		callfunction removegarbage 1
+		get RAWSIZE asize MEMORY_FILE2
+		if DESCRIPTIVE_NAME == 1
+			get REALNAMES line 2
+			string NAME p= "%s\%s.bin" STATION_NAME REALNAMES
+		elif DESCRIPTIVE_NAME == 0
+			math SOUNDNUM = j
+			math SOUNDNUM + 1
+			string NAME p= "%s/Track_%03i.bin" PAK_REAL_NAME SOUNDNUM
+		else
+			print "Please enter the values of 0 or 1!"
+			cleanexit
+		endif
+		log NAME 0 RAWSIZE MEMORY_FILE2
+	elif EXTRACT_RAW == 0 && EXTRACT_AS_IS == 0
+		log MEMORY_FILE OFFSET SIZE
+		callfunction removegarbage 1
+		get RAWSIZE asize MEMORY_FILE2
+		callfunction ADS 1
+		if DESCRIPTIVE_NAME == 1
+			get REALNAMES line 2
+			string NAME p= "%s\%s.ads" STATION_NAME REALNAMES
+		elif DESCRIPTIVE_NAME == 0
+			math SOUNDNUM = j
+			math SOUNDNUM + 1
+			string NAME p= "%s/Track_%03i.ads" PAK_REAL_NAME SOUNDNUM
+		else
+			print "Please enter the values of 0 or 1!"
+			cleanexit
+		endif
+		get SIZE asize MEMORY_FILE3
+		log NAME 0 SIZE MEMORY_FILE3
+	elif EXTRACT_RAW == 1 && EXTRACT_AS_IS == 1
+		print "Currently you can only pick one extraction modes"
+		cleanexit
+	else
+		print "Please enter the values of 0 or 1!"
+		cleanexit
+	endif
+next j
+
+startfunction removegarbage
+	math DATASTART = 0x1f84
+	math CHANNELS = 2
+	math INTERLEAVE = 0x10000
+	math PAD = 0x1000
+	xmath SBLOCKS "INTERLEAVE * CHANNELS"
+	
+	get DATSIZE asize MEMORY_FILE
+	goto 0x1f44 MEMORY_FILE
+	get FREQ long MEMORY_FILE
+	
+	log MEMORY_FILE2 0 0
+	
+	append
+	for i = 0
+		if FREQ == 0x2ee
+			math DATASTART + PAD
+			math TEST = DATASTART
+			math TEST + SBLOCKS
+			if TEST >= DATSIZE
+				math ENDFILE = 0
+				xmath ENDFILE "DATSIZE - DATASTART" MEMORY_FILE
+				log MEMORY_FILE2 DATASTART ENDFILE MEMORY_FILE
+				math FREQ << 5
+				break
+			else
+				log MEMORY_FILE2 DATASTART SBLOCKS MEMORY_FILE
+			endif
+			math DATASTART + SBLOCKS
+			goto DATASTART MEMORY_FILE
+		else
+			SET TEST DATASTART
+			math TEST + SBLOCKS
+			if TEST >= DATSIZE
+				break
+			else
+				log MEMORY_FILE2 DATASTART SBLOCKS MEMORY_FILE
+			endif
+			math DATASTART + PAD
+			math DATASTART + SBLOCKS
+			goto DATASTART MEMORY_FILE
+		endif
+	next i
+	append
+endfunction
+
+startfunction ADS	
+	log MEMORY_FILE3 0 0
+	put 0x64685353 long MEMORY_FILE3
+	put 0x18 long MEMORY_FILE3
+	put 0x10 long MEMORY_FILE3
+	put FREQ long MEMORY_FILE3
+	put CHANNELS long MEMORY_FILE3
+	put INTERLEAVE long MEMORY_FILE3
+	put 0 long MEMORY_FILE3
+	put 0xffffffff long MEMORY_FILE3
+	put 0x64625353 long MEMORY_FILE3
+	put RAWSIZE long MEMORY_FILE3
+	append
+	log MEMORY_FILE3 0 RAWSIZE MEMORY_FILE2
+	append
+endfunction
+
+startfunction getpakinfo
+	savepos PAK_FDSE 1
+	if PAK_FDSE == LKUP_SIZE
+		break
+	endif
+	get PAK_FDSE byte 1
+	if PAK_FDSE != PAK_FDSE_TEST
+		break
+	endif
+	get DUMMY threebyte 1
+	get OFFSET long 1
+	get SIZE long 1
+	putarray 0 i DUMMY
+	putarray 1 i OFFSET
+	putarray 2 i SIZE
+endfunction
+
+startfunction getpakoffset
+	get PAK_NAME FILENAME
+	if PAK_NAME == "AA.PAK"
+		string PAK_REAL_NAME p= "AA"
+		FindLoc START_INFO_OFF binary \x0\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 0
+	elif PAK_NAME == "ADVERTS.PAK"
+		string PAK_REAL_NAME p= "ADVERTS"
+		FindLoc START_INFO_OFF binary \x1\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 1
+	elif PAK_NAME == "AMBIENCE.PAK"
+		string PAK_REAL_NAME p= "AMBIENCE"
+		FindLoc START_INFO_OFF binary \x2\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 2
+	elif PAK_NAME == "BEATS.PAK"
+		string PAK_REAL_NAME p= "BEATS"
+		FindLoc START_INFO_OFF binary \x3\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 3
+	elif PAK_NAME == "CH.PAK"
+		string PAK_REAL_NAME p= "CH"
+		FindLoc START_INFO_OFF binary \x4\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 4
+	elif PAK_NAME == "CO.PAK"
+		string PAK_REAL_NAME p= "CO"
+		FindLoc START_INFO_OFF binary \x5\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 5
+	elif PAK_NAME == "CR.PAK"
+		string PAK_REAL_NAME p= "CR"
+		FindLoc START_INFO_OFF binary \x6\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 6
+	elif PAK_NAME == "CUTSCENE.PAK"
+		string PAK_REAL_NAME p= "CUTSCENE"
+		FindLoc START_INFO_OFF binary \x7\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 7
+	elif PAK_NAME == "DS.PAK"
+		string PAK_REAL_NAME p= "DS"
+		FindLoc START_INFO_OFF binary \x8\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 8
+	elif PAK_NAME == "HC.PAK"
+		string PAK_REAL_NAME p= "HC"
+		FindLoc START_INFO_OFF binary \x9\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 9
+	elif PAK_NAME == "MH.PAK"
+		string PAK_REAL_NAME p= "MH"
+		FindLoc START_INFO_OFF binary \xa\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 10
+	elif PAK_NAME == "MR.PAK"
+		string PAK_REAL_NAME p= "MR"
+		FindLoc START_INFO_OFF binary \xb\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 11
+	elif PAK_NAME == "NJ.PAK"
+		string PAK_REAL_NAME p= "NJ"
+		FindLoc START_INFO_OFF binary \xc\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 12
+	elif PAK_NAME == "RE.PAK"
+		string PAK_REAL_NAME p= "RE"
+		FindLoc START_INFO_OFF binary \xd\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 13
+	elif PAK_NAME == "RG.PAK"
+		string PAK_REAL_NAME p= "RG"
+		FindLoc START_INFO_OFF binary \xe\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 14
+	elif PAK_NAME == "TK.PAK"
+		string PAK_REAL_NAME p= "TK"
+		FindLoc START_INFO_OFF binary \xf\x0\x0\x0\x0\x0\x0\x0 1
+		goto START_INFO_OFF 1
+		SET PAK_FDSE_TEST 15
+	endif
+endfunction
