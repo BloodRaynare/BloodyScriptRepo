@@ -1,7 +1,7 @@
 ## Tenchu - Fatal Shadows (PS2) - BGM extraction scripts - by BloodRaynare
 ## For use with QuickBMS: http://aluigi.altervista.org/quickbms.htm
 
-## Quite hacky implementation, but it works.
+## Implementation is quite hacky, but it works.
 
 open FDSE 2.BIN 1
 
