@@ -1,0 +1,89 @@
+open FDSE 2.BIN 1
+
+goto 0 0 SEEK_END
+FindLoc TMP1 string "K2SoundDriver" 0 "" 0
+goto TMP1
+get FILES byte
+math TMP1 + 0x18
+goto TMP1
+
+
+for i = 0 < FILES
+	log MEMORY_FILE 0 0
+	get OFFSET long
+	savepos CURRPOS
+	xmath SIZEPOS "CURRPOS + (FILES <<< 2 - 4)"
+	goto SIZEPOS
+	get SIZE long
+	goto CURRPOS
+	string NAME p "SONG\SONG_%02i.ads" i
+	log MEMORY_FILE OFFSET SIZE 1
+	callfunction ADSHeader 1
+	get ADSDATA asize MEMORY_FILE2
+	log NAME 0 ADSDATA MEMORY_FILE2
+	# callfunction ReinterleaveAudio 1
+	# callfunction WAVHeader 1
+next i
+
+startfunction ADSHeader
+	log MEMORY_FILE2 0 0
+	append
+	putDstring "SShd" 4 MEMORY_FILE2
+	put 0x18 long MEMORY_FILE2
+	put 0x01 long MEMORY_FILE2
+	put 48000 long MEMORY_FILE2
+	put 0x02 long MEMORY_FILE2
+	put 0x200 long MEMORY_FILE2
+	put 0xffffffff long MEMORY_FILE2
+	put 0xffffffff long MEMORY_FILE2
+	putDstring "SSbd" 4 MEMORY_FILE2
+	put SIZE long MEMORY_FILE2
+	log MEMORY_FILE2 0 SIZE MEMORY_FILE
+	append
+endfunction
+
+# startfunction ReinterleaveAudio
+	# log MEMORY_FILE2 0 0
+	# get TMPSIZE1 asize MEMORY_FILE
+	# append
+	# for i = 0
+		# savepos LCHAN MEMORY_FILE
+		# if LCHAN >= TMPSIZE1 && RCHAN >= TMPSIZE1
+			# break
+		# endif
+		# log MEMORY_FILE2 LCHAN 2 MEMORY_FILE
+		# string LCHAN_INFO p "Left channel data at 0x%08x" LCHAN
+		# print %LCHAN_INFO%
+		# xmath RCHAN "LCHAN + 0x200"
+		# goto RCHAN MEMORY_FILE
+		# log MEMORY_FILE2 RCHAN 2 MEMORY_FILE
+		# string RCHAN_INFO p "Right channel data at 0x%08x" RCHAN
+		# print %RCHAN_INFO%
+		# math LCHAN + 2
+		# goto LCHAN MEMORY_FILE
+	# next i
+	# append
+# endfunction
+
+# startfunction WAVHeader
+	# log MEMORY_FILE3 0 0
+	# append
+	# putDstring "RIFF" 4 MEMORY_FILE3
+	# put 0x00 long MEMORY_FILE3
+	# putDstring "WAVEfmt " 8 MEMORY_FILE3
+	# put 0x10 long MEMORY_FILE3
+	# put 0x01 short MEMORY_FILE3
+	# put 0x02 short MEMORY_FILE3
+	# put 0xbb80 long MEMORY_FILE3
+	# put 192000 long MEMORY_FILE3
+	# put 0x04 short MEMORY_FILE3
+	# put 0x10 short MEMORY_FILE3
+	# putDstring "data" 4 MEMORY_FILE3
+	# put SIZE long MEMORY_FILE3
+	# log MEMORY_FILE3 0 SIZE MEMORY_FILE2
+	# append
+	# get TMPSIZE2 asize MEMORY_FILE3
+	# goto 4 MEMORY_FILE3
+	# xmath WAVSIZE "TMPSIZE2 - 8"
+	# put WAVSIZE long MEMORY_FILE3
+# endfunction
